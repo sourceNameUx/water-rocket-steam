@@ -1,0 +1,68 @@
+# From a Bottle to Lift-off
+
+Santiago Cundumi Solis's STEAM water-rocket project: a documentary, interactive project exhibit, and a two-page results report.
+
+**Website:** https://sourceNameUx.github.io/water-rocket-steam/
+
+## Watch and read
+
+- [Documentary](docs/assets/rocket-documentary.mp4): 5:23, 1280 × 720, with the actual final launch.
+- [Results report — PDF](docs/assets/rocket-report.pdf)
+- [Editable report — Word](docs/assets/rocket-report.docx)
+
+**Language:** The documentary retains the original Spanish chapters and adds an English results ending. The website and both reports are in English, following the current explicit instruction that newly authored file contents use English.
+
+## Results at a glance
+
+| Version | Estimated height | Share of the 5 m goal |
+| --- | ---: | ---: |
+| First version | 2 m | 40% |
+| Larger bottle | 0.5 m | 10% |
+| Final design | 1 m | 20% |
+
+These are retrospective estimates rather than instrumented measurements. Bottle capacity, package size and dry mass are explicit working assumptions. The report explains the 185 g loaded-mass example and the 165–230 g sensitivity range.
+
+## Website development
+
+The site is static HTML, CSS and JavaScript in `docs/`. GitHub Pages publishes that directory from `main`. Fonts, images, captions, reports and the video are hosted locally with the site.
+
+```sh
+python -m http.server 8000 --directory docs
+```
+
+Open http://localhost:8000. Edit `docs/index.html`, `docs/styles.css` or `docs/app.js` and refresh.
+
+For browser checks, install the small test dependency and run:
+
+```sh
+npm install --prefix .site-tools --no-audit --no-fund playwright
+node scripts/verify_site.mjs
+```
+
+The verification script uses the local Windows Chrome installation. It checks responsive overflow, imagery, keyboard behavior, report downloads, chapter seeking and timed captions. It writes local evidence into `.impeccable/review/`.
+
+To check the published site with the same browser scenarios in PowerShell:
+
+```powershell
+$env:SITE_URL = "https://sourceNameUx.github.io/water-rocket-steam/"
+node scripts/verify_site.mjs
+```
+
+The built visual system and component patterns are documented in [DESIGN.md](DESIGN.md).
+
+## Delivery verification
+
+- The final video is 323.2 seconds, 9,696 frames, 1280 × 720 at 30 fps, with H.264 video and stereo AAC audio.
+- All 11 technical delivery checks passed. The measured mix is approximately −16.0 LUFS with a −1.9 dBTP true peak.
+- Fifteen sampled frame comparisons confirm alignment with the source timeline, including the exact cut at 237.2 seconds. The actual release occurs around 244.512 seconds; the camera does not retain the highest point.
+- All 93 embedded caption cues are nonoverlapping. The site provides the original-speech captions as WebVTT.
+- Local browser checks passed at 1440, 390, 320 and 768 px, including downloads, keyboard controls and actual video playback.
+- Both report formats contain the same two-page, 738-word analysis; PDF text and DOCX structure were validated.
+
+Technical evidence is recorded in `revision-v6/reports/`. These checks establish packaging, alignment and browser behavior; audio review used source alignment and loudness measurements.
+
+## Documentary and report source
+
+`revision-v6/` contains the editable Remotion scenes, narration plan, report copy and build scripts. The original recordings, historical revisions, prepared media, installed rendering dependencies and temporary exports remain in the local project workspace. Rebuilding the documentary requires those local media assets and the configured editing toolkit. The published site itself is self-contained.
+
+`scripts/prepare_site.py` prepares the website copies from the local deliverables. It preserves original material and records image provenance in `docs/assets/provenance.json`. Font licenses are beside the font files.

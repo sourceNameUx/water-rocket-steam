@@ -1,0 +1,102 @@
+{
+  "frames": 9696,
+  "duration": 323.2,
+  "joinFrame": 7116,
+  "joinSeconds": 237.2,
+  "releaseSeconds": 244.512,
+  "pictureComparisons": [
+    {
+      "source": "body",
+      "sourceFrame": 0,
+      "finalFrame": 0,
+      "meanSquaredError": 0.030856119468808174
+    },
+    {
+      "source": "body",
+      "sourceFrame": 210,
+      "finalFrame": 210,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "body",
+      "sourceFrame": 2250,
+      "finalFrame": 2250,
+      "meanSquaredError": 1.9252545833587646
+    },
+    {
+      "source": "body",
+      "sourceFrame": 5076,
+      "finalFrame": 5076,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "body",
+      "sourceFrame": 7115,
+      "finalFrame": 7115,
+      "meanSquaredError": 0.12962709367275238
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 0,
+      "finalFrame": 7116,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 30,
+      "finalFrame": 7146,
+      "meanSquaredError": 0.9165332317352295
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 220,
+      "finalFrame": 7336,
+      "meanSquaredError": 0.980167806148529
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 270,
+      "finalFrame": 7386,
+      "meanSquaredError": 0.5398705005645752
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 720,
+      "finalFrame": 7836,
+      "meanSquaredError": 0.539570689201355
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1170,
+      "finalFrame": 8286,
+      "meanSquaredError": 0.5597236752510071
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1680,
+      "finalFrame": 8796,
+      "meanSquaredError": 0.7115375399589539
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1980,
+      "finalFrame": 9096,
+      "meanSquaredError": 0.4323459267616272
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 2400,
+      "finalFrame": 9516,
+      "meanSquaredError": 0.3381720185279846
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 2579,
+      "finalFrame": 9695,
+      "meanSquaredError": 0.17147931456565857
+    }
+  ],
+  "embeddedCaptionCues": 93,
+  "embeddedCaptionsDoNotOverlap": true,
+  "result": "All sampled frames align with their source timeline; no half-second transition shift."
+}

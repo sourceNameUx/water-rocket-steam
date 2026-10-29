@@ -1,0 +1,32 @@
+[
+  {
+    "file": "finished-rocket.webp",
+    "origin": "User-supplied project material; source: revision-v6/public/design/final-001.jpg. Resized and encoded as WebP; no generated imagery.",
+    "width": 660,
+    "height": 1480
+  },
+  {
+    "file": "prototype.webp",
+    "origin": "User-supplied project material; source: revision-v6/public/media/p01.jpg. Resized and encoded as WebP; no generated imagery.",
+    "width": 1110,
+    "height": 1480
+  },
+  {
+    "file": "fins.webp",
+    "origin": "User-supplied project material; source: revision-v6/public/design/fins-detail.jpg. Resized and encoded as WebP; no generated imagery.",
+    "width": 624,
+    "height": 832
+  },
+  {
+    "file": "nose.webp",
+    "origin": "User-supplied project material; source: revision-v6/public/design/nose-detail.jpg. Resized and encoded as WebP; no generated imagery.",
+    "width": 420,
+    "height": 656
+  },
+  {
+    "file": "documentary-poster.webp",
+    "origin": "User-supplied project material; source: revision-v6/out/review/frame-07146.png. Resized and encoded as WebP; no generated imagery.",
+    "width": 1280,
+    "height": 720
+  }
+]

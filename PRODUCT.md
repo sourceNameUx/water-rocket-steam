@@ -20,7 +20,7 @@ Present the real rocket, its construction, documentary, test results and downloa
 
 ## Capabilities and Constraints
 
-The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. New text is English under the latest session protocol; the retained earlier documentary is Spanish. No login or backend is needed.
+The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. The website and standalone report must be Spanish, following Santiago's schoolwork writing profile. The documentary has Spanish chapters and an English results ending, which is labeled on the site. The report requires a proper cover and all 15 original photographs, with no embedded video. No login or backend is needed.
 
 ## Brand Commitments
 
@@ -28,7 +28,7 @@ Continue the documentary's lively blue, yellow and green identity, with large re
 
 ## Evidence on Hand
 
-`revision-v6/public/design/` and `revision-v6/public/media/` contain project photography and prepared clips. `revision-v6/narration/revision-plan.json` records the final release, quantities and results. `Rocket-Results-and-Analysis-v6.docx` and `.pdf` contain the revised analysis.
+`revision-v6/public/design/` and `revision-v6/public/media/` contain project photography and prepared clips. `revision-v6/narration/revision-plan.json` records the final release, quantities and results. `revision-v7/evidence/` contains all 15 report photographs, with original-source hashes in its manifest. `Rocket-Complete-Report-v7.docx` and `.pdf` contain the complete Spanish submission.
 
 ## Product Principles
 

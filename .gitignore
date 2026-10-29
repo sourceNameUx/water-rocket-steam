@@ -30,6 +30,7 @@ revision-v6/reports/*
 !revision-v6/reports/publication.json
 revision-v6/bootstrap.py
 revision-v6/Open-Editor.cmd
+revision-v7/review/
 VIDEO-WORKFLOW.md
 video-preferences.json
 /*.mp4

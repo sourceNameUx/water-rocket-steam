@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "file": "photo-01.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 1.jpg",
+    "sourceSha256": "5ec13be29b7afdef9c869d5359d49a30497780534037ea144029252735d0a7d2",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 2,
+    "file": "photo-02.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 2.jpg",
+    "sourceSha256": "c0a37fe1f5136162bb40599fa45be8d6a03dde42e073a3cf34da1712e1def463",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 3,
+    "file": "photo-03.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 3.jpg",
+    "sourceSha256": "d92e6801c502fb2033afe7498ca3afb23dbf184f89afca769d15aff617841555",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 4,
+    "file": "photo-04.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 4.jpg",
+    "sourceSha256": "bda100a3690f985bd3a0788f705b63475b3d7de0e05f9309ff9ad3d83c1a723a",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 5,
+    "file": "photo-05.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 5.jpg",
+    "sourceSha256": "615d7f68a17e2f83c2bb91f0e745e8826ac52368b935e149d2165480a4635630",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 6,
+    "file": "photo-06.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 6.jpg",
+    "sourceSha256": "e0e8e4d5aef4480a73414f46767cb3689d314e279a5dc8b599fd12ef0493c369",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 7,
+    "file": "photo-07.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DECORANDO SEGUNDA VERSIÓN 7.jpg",
+    "sourceSha256": "3106a79ea4e6d5e49a66abdb5d8dd8ea9b528c0e4e5e531925a5f2b9bbc7cf2b",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 8,
+    "file": "photo-08.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DISENO-FIBAL-001.jpg",
+    "sourceSha256": "59697a4d7386bd397084c63746a6434c59851fc2cd62f4dcdd8a434533f09564",
+    "width": 1200,
+    "height": 1600,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 9,
+    "file": "photo-09.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DISENO-FIBAL-002.jpg",
+    "sourceSha256": "c6c491c760177419395e4f3b12237b23fbab457969f16c51bd73c989aa91b377",
+    "width": 1200,
+    "height": 1600,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 10,
+    "file": "photo-10.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DISENO-FIBAL-003.jpg",
+    "sourceSha256": "673deb43fcc03eb4a03a7bac95a78e3dad2477859ae2dffce4ae118f6e6f59c8",
+    "width": 1200,
+    "height": 1600,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 11,
+    "file": "photo-11.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DISENO-FIBAL-004.jpg",
+    "sourceSha256": "c299ea472fe30525f1633094826ba84fe5145ec0745c7ec263e614cd74db3057",
+    "width": 1200,
+    "height": 1600,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 12,
+    "file": "photo-12.jpg",
+    "source": "RECURSOS-VIDEO/fotos/DISENO-FIBAL-005.jpg",
+    "sourceSha256": "d20aa14d6063c1ff0e84e6e0d62642c98489c288125f3339a934777b56c021f8",
+    "width": 1200,
+    "height": 1600,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 13,
+    "file": "photo-13.jpg",
+    "source": "RECURSOS-VIDEO/fotos/PEIMER PROTOTIPO.jpg",
+    "sourceSha256": "4a2a6e58a6b47dcef6dd378ecbc0b7770c0b421df637f8606e9f0f349badbbd2",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 14,
+    "file": "photo-14.jpg",
+    "source": "RECURSOS-VIDEO/fotos/PRIMER INTENTO EN RL PARQUE.jpg",
+    "sourceSha256": "31d429c41d6efb0a6b65c830ffc2f068024ddff144b7f1506abd98570329a199",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  },
+  {
+    "id": 15,
+    "file": "photo-15.jpg",
+    "source": "RECURSOS-VIDEO/fotos/PRIMER PROTOTIPO2.jpg",
+    "sourceSha256": "0d0b29f81ad29d1a18c0735fef77d6a4cdd2c741a76882be414c0e87be452e0d",
+    "width": 1350,
+    "height": 1800,
+    "processing": "EXIF orientation applied; resized proportionally; no crop or retouching."
+  }
+]

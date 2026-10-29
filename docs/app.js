@@ -1,27 +1,27 @@
 const parts = {
   fins: {
     image: "fins.webp",
-    alt: "Close view of the handmade black fins",
-    title: "Keeping a direction.",
-    text: "The fins help the rocket stay pointed along its flight. They also add mass, so more material is not automatically better.",
+    alt: "Detalle de las aletas negras hechas a mano",
+    title: "Mantener la dirección.",
+    text: "Las aletas ayudan a mantener la dirección del cohete. También añaden masa, así que poner más material no siempre mejora el vuelo.",
   },
   nose: {
     image: "nose.webp",
-    alt: "Close view of the taped conical nose",
-    title: "Giving the air a path.",
-    text: "The conical nose guides the airflow around the front. Its shape was part of my design, but these tests did not measure how much it changed drag.",
+    alt: "Detalle de la punta cónica unida con cinta",
+    title: "Facilitar el paso del aire.",
+    text: "La punta cónica ayuda a que el aire pase alrededor del frente. La agregué al diseño, pero en estas pruebas no medí cuánto cambió la resistencia del aire.",
   },
   joints: {
     image: "finished-rocket.webp",
-    alt: "The finished rocket with visible tape joining its parts",
-    title: "Holding it together.",
-    text: "Tape keeps the body, nose and fins joined. Secure parts matter, but extra layers add weight and cannot compensate for a leaking pressure seal.",
+    alt: "Cohete terminado con cinta visible en las uniones",
+    title: "Mantener las piezas unidas.",
+    text: "La cinta une el cuerpo, la punta y las aletas. Las piezas deben quedar firmes, pero más capas añaden peso y no solucionan una fuga en el cierre de la botella.",
   },
   support: {
     image: "documentary-poster.webp",
-    alt: "Final-test setup from the original recording; the green support is partly obscured by the foreground",
-    title: "Straight before release.",
-    text: "The green support positions the rocket before launch. It stays on the ground and is excluded from the flying mass. Tilt or contact friction could affect the release.",
+    alt: "Preparación de la prueba final; el soporte verde está parcialmente oculto en la grabación",
+    title: "Colocar el cohete antes de soltarlo.",
+    text: "El soporte verde sostiene el cohete antes del lanzamiento y se queda en el suelo, por eso no lo sumo a la masa que vuela. La inclinación o el roce podrían afectar la salida.",
   },
 };
 const partImage = document.querySelector("#part-image");
@@ -56,7 +56,7 @@ chapterButtons.forEach((button) =>
       status.textContent = "";
     } catch {
       status.textContent =
-        "Chapter selected. Press Play in the video controls to watch.";
+        "Capítulo seleccionado. Pulsa reproducir en los controles del video para verlo.";
     }
   }),
 );
@@ -70,5 +70,5 @@ player.addEventListener("timeupdate", () => {
 });
 player.addEventListener("error", () => {
   status.textContent =
-    "The video could not load. Use the download link below to open the film directly.";
+    "No se pudo cargar el video. Usa el enlace de descarga que está debajo para abrirlo directamente.";
 });

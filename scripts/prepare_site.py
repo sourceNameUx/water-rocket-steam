@@ -39,7 +39,9 @@ for name, url in fonts.items():
     if not destination.exists():
         urllib.request.urlretrieve(url, destination)
 for extension in ('docx', 'pdf'):
-    shutil.copy2(ROOT / f'Rocket-Results-and-Analysis-v6.{extension}', ASSETS / f'rocket-report.{extension}')
+    destination = ASSETS / f'rocket-report.{extension}'
+    destination.unlink(missing_ok=True)
+    shutil.copy2(ROOT / f'Rocket-Complete-Report-v7.{extension}', destination)
 delivery = ROOT / 'Rocket-Documentary-v6-FINAL.mp4'
 if delivery.exists():
     shutil.copy2(delivery, ASSETS / 'rocket-documentary.mp4')

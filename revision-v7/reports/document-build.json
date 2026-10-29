@@ -1,0 +1,44 @@
+{
+  "pages": 8,
+  "language": "Spanish",
+  "photographs": 15,
+  "photoCountsByPage": [
+    0,
+    0,
+    3,
+    4,
+    4,
+    4,
+    0,
+    0
+  ],
+  "allTextOnExpectedPages": true,
+  "allPreparedPhotographsEmbeddedExactly": true,
+  "noEmbeddedVideo": true,
+  "noTextOverflow": true,
+  "photoAspectRatiosPreserved": true,
+  "pdfExporter": "Microsoft Word",
+  "coverVerified": [
+    "PROYECTO STEAM",
+    "Cohete de botella",
+    "INSTITUCIÓN EDUCATIVA ANTONIO LIZARAZO",
+    "Palmira, Valle del Cauca",
+    "Santiago Cundumi Solis",
+    "Grado 11-2",
+    "2026",
+    "Área de Tecnología"
+  ],
+  "wordCount": 1270,
+  "files": {
+    ".docx": {
+      "name": "Rocket-Complete-Report-v7.docx",
+      "bytes": 5831803,
+      "sha256": "dd266669fb1ef3b7736506e599b2e7c0de62c9edc8b6471a44c9074ebbd6402e"
+    },
+    ".pdf": {
+      "name": "Rocket-Complete-Report-v7.pdf",
+      "bytes": 645744,
+      "sha256": "a0f1d93b1df88d94c0fa432cb5afb3f011c0d96d43786b04ed061ce380793aa2"
+    }
+  }
+}

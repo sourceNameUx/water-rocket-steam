@@ -85,6 +85,11 @@ try {
     await page.route("**/rocket-documentary.mp4", (route) => route.abort());
   await page.goto(base, { waitUntil: "networkidle" });
   await page.evaluate(() => document.fonts.ready);
+  assert.equal(await page.locator("html").getAttribute("lang"), "es");
+  assert.match(await page.locator("#report").innerText(), /15 fotos/);
+  report.checks.push(
+    "Spanish page language and complete photographic report description",
+  );
   if (!mediaOnly) {
     for (const [name, width, height] of [
       ["desktop", 1440, 1000],
@@ -138,7 +143,7 @@ try {
     await page.keyboard.press("Enter");
     assert.match(
       await page.locator("#part-description").innerText(),
-      /Giving the air a path/,
+      /Facilitar el paso del aire/,
     );
     await page.locator("summary").click();
     assert.equal(await page.locator("details").getAttribute("open"), "");
@@ -151,7 +156,7 @@ try {
     }
     await page.goto(base);
     await page.keyboard.press("Tab");
-    assert.equal(await page.locator(":focus").textContent(), "Skip to content");
+    assert.equal(await page.locator(":focus").textContent(), "Ir al contenido");
     const anchors = await page
       .locator('a[href^="#"]')
       .evaluateAll((links) =>
@@ -175,13 +180,11 @@ try {
       null,
       { timeout: 60000 },
     );
-    const metadata = await page
-      .locator("video")
-      .evaluate((video) => ({
-        duration: video.duration,
-        width: video.videoWidth,
-        height: video.videoHeight,
-      }));
+    const metadata = await page.locator("video").evaluate((video) => ({
+      duration: video.duration,
+      width: video.videoWidth,
+      height: video.videoHeight,
+    }));
     assert.ok(Math.abs(metadata.duration - 323.2) < 0.1);
     assert.equal(metadata.width, 1280);
     assert.equal(metadata.height, 720);
@@ -200,14 +203,12 @@ try {
     await page.waitForFunction(
       () => document.querySelector("video").textTracks[0].cues?.length > 0,
     );
-    const cues = await page
-      .locator("video")
-      .evaluate((video) =>
-        [...video.textTracks[0].cues].map((cue) => ({
-          start: cue.startTime,
-          end: cue.endTime,
-        })),
-      );
+    const cues = await page.locator("video").evaluate((video) =>
+      [...video.textTracks[0].cues].map((cue) => ({
+        start: cue.startTime,
+        end: cue.endTime,
+      })),
+    );
     assert.ok(
       cues.every(
         (cue, index) =>

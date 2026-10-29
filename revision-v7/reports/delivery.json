@@ -1,0 +1,33 @@
+{
+  "revision": "v7",
+  "purpose": "Complete Spanish school submission and Spanish website",
+  "report": {
+    "pages": 8,
+    "photographs": 15,
+    "cover": true,
+    "embeddedVideo": false,
+    "language": "Spanish",
+    "exporter": "Microsoft Word",
+    "verification": "revision-v7/reports/document-build.json",
+    "visualReview": "All eight rendered pages inspected; source text enlarged and final page confirmed. No clipping, overlap, missing photographs or unintended blank pages."
+  },
+  "website": {
+    "language": "Spanish",
+    "viewports": [1440, 390, 320, 768],
+    "horizontalOverflow": false,
+    "downloadChecksPassed": ["PDF", "DOCX"],
+    "interactionChecksPassed": ["Part selection", "Keyboard activation", "Scientific disclosure", "Skip link", "Chapter seek and playback"],
+    "captionCues": 93,
+    "javascriptErrors": 0,
+    "visualReview": "Desktop and mobile renderings inspected. No localization layout defects found.",
+    "detector": "Only existing palette and functional chart-grid advisories; no blocking findings."
+  },
+  "commands": [
+    "python revision-v7/build_report.py",
+    "python revision-v7/export_report.py",
+    "python revision-v7/verify_report.py",
+    "node scripts/verify_site.mjs",
+    "git diff --check"
+  ],
+  "rollbackBoundary": "The v7 report sources/evidence, the Spanish website copy and download replacements, their preparation/check updates, and the associated README/PRODUCT language claims form one correction. The existing documentary assets and v6 source remain independent."
+}

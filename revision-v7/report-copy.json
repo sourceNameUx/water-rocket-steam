@@ -1,0 +1,112 @@
+{
+  "title": "PROYECTO STEAM",
+  "subtitle": "Cohete de botella",
+  "author": "Santiago Cundumi Solis",
+  "school": "INSTITUCIÓN EDUCATIVA ANTONIO LIZARAZO",
+  "place": "Palmira, Valle del Cauca",
+  "subject": "Área de Tecnología",
+  "grade": "Grado 11-2",
+  "year": "2026",
+  "pages": [
+    [
+      ["heading", "1. Objetivo y materiales"],
+      ["paragraph", "Mi objetivo era construir un cohete con una botella reutilizada y lograr que subiera por lo menos 5 m. Probé una primera versión, una botella más grande y un diseño final con aletas y punta cónica. Ninguna llegó a la meta, pero pude comparar lo que pasó y pensar qué debía mejorar."],
+      ["subheading", "Materiales"],
+      ["paragraph", "Botellas plásticas, vinagre, bicarbonato de sodio, cinta, palitos de madera, tubo transparente, material para las aletas y la punta, cierre para la botella y soporte verde."],
+      ["paragraph", "En la versión final usé una botella personal de Big Cola, cerca de un cuarto de su capacidad con vinagre y media caja pequeña de bicarbonato. No confirmé la capacidad ni el peso de la caja, por eso más adelante separo los cálculos de lo que realmente observé."],
+      ["heading", "2. Cómo funciona"],
+      ["paragraph", "Yo entiendo que el vinagre reacciona con el bicarbonato y produce dióxido de carbono, que es un gas. Si ese gas se acumula dentro de la botella cerrada, aumenta la presión. Cuando salen líquido y gas por la abertura, empujan el cohete en sentido contrario. Esto se relaciona con la tercera ley de Newton, la de acción y reacción."],
+      ["equation", "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂"],
+      ["paragraph", "El ácido acético del vinagre y el bicarbonato forman acetato de sodio, agua y dióxido de carbono. La reacción produce el gas, pero la altura también depende de la masa del cohete, el cierre y la forma en que sale del soporte."],
+      ["subheading", "Las partes del diseño"],
+      ["paragraph", "Agregué aletas para ayudar a mantener la dirección, una punta cónica para facilitar el paso del aire y cinta para unir las piezas. El soporte verde sirve para colocar el cohete antes de soltarlo y se queda en el suelo. Las aletas y la cinta también añaden masa, así que tener más piezas no garantiza subir más."],
+      ["paragraph", "Las siguientes páginas reúnen las 15 fotografías del proyecto. Muestran la preparación y el diseño, pero no sirven por sí solas para medir la altura de los lanzamientos."]
+    ],
+    [
+      ["heading", "3. Preparación y primer prototipo"],
+      ["paragraph", "Empecé con una botella sencilla y preparé una primera prueba en el parque. En estas fotos se ven el prototipo y el lugar donde lo estaba preparando."],
+      ["photos", [13, 15, 14]]
+    ],
+    [
+      ["heading", "4. Armado de la botella"],
+      ["paragraph", "Después trabajé en otra versión. Estas fotos muestran la botella transparente y el armado de sus piezas antes del acabado final."],
+      ["photos", [1, 2, 3, 4]]
+    ],
+    [
+      ["heading", "5. Del armado al acabado"],
+      ["paragraph", "Seguí ajustando las piezas y cubrí el cuerpo del cohete. Se puede ver el cambio entre la botella transparente y el diseño negro con la punta y las aletas."],
+      ["photos", [5, 6, 7, 8]]
+    ],
+    [
+      ["heading", "6. Diseño final y soporte"],
+      ["paragraph", "Así quedó el cohete terminado, solo y sobre el soporte verde. El soporte es una pieza aparte y no lo sumo a la masa que vuela."],
+      ["photos", [9, 10, 11, 12]]
+    ],
+    [
+      ["heading", "7. Resultados y cálculos"],
+      ["paragraph", "Estas alturas son aproximaciones que recuerdo de las pruebas, no mediciones con instrumentos. Registro un resultado representativo por versión, porque no tengo una serie de mediciones repetidas."],
+      ["results", ""],
+      ["paragraph", "Para comparar usé altura ÷ 5 × 100. La primera versión dio 2 ÷ 5 × 100 = 40 %. La botella grande dio 10 % y el diseño final 20 %. El último subió cerca de 0,5 m más que la botella grande, pero 1 m menos que el primero."],
+      ["paragraph", "La grabación final muestra el ascenso y la caída, pero el punto más alto sale del encuadre. Por eso mantengo 1 m como mi estimación y no como una altura comprobada con la cámara."],
+      ["subheading", "Cantidad y masa inicial estimadas"],
+      ["paragraph", "Para hacer el cálculo supongo una botella de 400 mL, una caja de bicarbonato de 50 g y un cohete seco de 60 g. Estos valores no se comprobaron con la etiqueta ni con una balanza."],
+      ["quantities", ""],
+      ["paragraph", "Si tomo 1 g por cada mL de vinagre, la masa cargada sería 100 + 25 + 60 = 185 g, o sea 0,185 kg. El soporte verde no está incluido. Con una botella de 400–500 mL, un cuarto de vinagre, 25 g de bicarbonato y un cohete seco de 40–80 g, el total quedaría entre 165 y 230 g."],
+      ["subheading", "Peso y ejemplo ideal de altura"],
+      ["paragraph", "Con 0,185 kg, el peso sería P = m × g = 0,185 × 9,81 ≈ 1,8 N. Para empezar a acelerar hacia arriba, el empuje vertical debe superar el peso y cualquier fuerza de contacto que se oponga. No medí ese empuje y la masa cambia al salir el contenido."],
+      ["paragraph", "El cálculo de 5,1 m es otro ejemplo. Si al terminar el empuje la velocidad hacia arriba fuera 10 m/s, sin resistencia del aire subiría además Δh = v² ÷ (2g) = 10² ÷ (2 × 9,81) ≈ 5,1 m. Esa velocidad es supuesta, así que el ejemplo no reemplaza la meta de 5 m ni los resultados de las pruebas."]
+    ],
+    [
+      ["heading", "8. Análisis y conclusión"],
+      ["paragraph", "La primera versión fue la que más subió. La botella grande no funcionó mejor solo por tener más capacidad, porque una mayor masa necesita más empuje y un mayor espacio vacío necesita más gas para alcanzar el mismo aumento de presión a igual temperatura. Como cambié varias cosas entre pruebas, no puedo asegurar que el tamaño fuera la única causa."],
+      ["paragraph", "El peso añadido, una fuga, la inclinación o el roce con el soporte pudieron afectar el vuelo. El acabado final se veía más completo, pero eso no demuestra que volara mejor. No alcancé la meta y prefiero dejar ese resultado claro."],
+      ["paragraph", "Yo volvería a empezar con la versión más liviana, pesaría las piezas, revisaría el cierre y anotaría las cantidades antes de cada prueba. También repetiría cada versión varias veces y cambiaría una sola cosa a la vez, con una cámara fija y una referencia visible de altura. Para mí, lo principal es poder medir y comparar mejor."],
+      ["heading", "9. Criterios de la actividad"],
+      ["rubric", ""],
+      ["paragraph", "Estos porcentajes son los criterios de la actividad, no las notas obtenidas."],
+      ["heading", "10. Fuentes y evidencias"],
+      ["paragraph", "Las 15 fotografías son del proceso de construcción y preparación de mi proyecto. Los resultados corresponden a mis estimaciones de las pruebas. Este informe incluye las fotos y el análisis para entregarlo por separado; el video queda en la página del proyecto."],
+      ["source", "https://www.acs.org/middleschoolchemistry/lessonplans/chapter6/lesson2.html"],
+      ["source", "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-third-law-action-reaction/"]
+    ]
+  ],
+  "captions": {
+    "1": "Botella transparente durante el armado.",
+    "2": "Preparación de un tubo transparente.",
+    "3": "Botella invertida con palitos junto al cuerpo.",
+    "4": "Ajuste de un tubo junto a la botella.",
+    "5": "Detalle del tubo y los palitos junto a la botella.",
+    "6": "Trabajo manual sobre el cuerpo del cohete.",
+    "7": "Otra vista de la etapa de construcción.",
+    "8": "Cohete con acabado negro, punta y aletas.",
+    "9": "Vista completa del diseño negro terminado.",
+    "10": "Cohete terminado colocado en el soporte verde.",
+    "11": "Otra vista del cohete sobre el soporte.",
+    "12": "Soporte verde separado del cohete.",
+    "13": "Botella del primer prototipo.",
+    "14": "Preparación de la prueba al aire libre en el parque.",
+    "15": "Otra etapa de preparación de la botella."
+  },
+  "tables": {
+    "results": [
+      ["Versión", "Altura aprox.", "Parte de la meta", "Faltó para 5 m"],
+      ["Primera versión", "2 m", "40 %", "3 m"],
+      ["Botella grande", "0,5 m", "10 %", "4,5 m"],
+      ["Diseño final", "1 m", "20 %", "4 m"]
+    ],
+    "quantities": [
+      ["Elemento", "Cálculo o supuesto", "Estimación"],
+      ["Vinagre", "400 mL × ¼", "100 mL ≈ 100 g"],
+      ["Bicarbonato", "50 g × ½", "25 g"],
+      ["Cohete seco", "Masa supuesta, sin soporte", "60 g"]
+    ],
+    "rubric": [
+      ["Criterio", "Porcentaje"],
+      ["Diseño", "20 %"],
+      ["Fundamentación científica", "25 %"],
+      ["Funcionamiento", "25 %"],
+      ["Registro y análisis de datos", "15 %"],
+      ["Presentación", "15 %"]
+    ]
+  }
+}

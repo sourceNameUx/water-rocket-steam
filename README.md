@@ -50,6 +50,8 @@ node scripts/verify_site.mjs
 
 The built visual system and component patterns are documented in [DESIGN.md](DESIGN.md).
 
+After Pages finishes deployment, `python scripts/verify_publication.py` compares every public asset with its committed Git blob using SHA-256 and checks video byte-range delivery. Public-site evidence is saved in `.impeccable/review/published/`.
+
 ## Delivery verification
 
 - The final video is 323.2 seconds, 9,696 frames, 1280 × 720 at 30 fps, with H.264 video and stereo AAC audio.
@@ -57,9 +59,12 @@ The built visual system and component patterns are documented in [DESIGN.md](DES
 - Fifteen sampled frame comparisons confirm alignment with the source timeline, including the exact cut at 237.2 seconds. The actual release occurs around 244.512 seconds; the camera does not retain the highest point.
 - All 93 embedded caption cues are nonoverlapping. The site provides the original-speech captions as WebVTT.
 - Local browser checks passed at 1440, 390, 320 and 768 px, including downloads, keyboard controls and actual video playback.
+- The same browser checks passed on the public GitHub Pages site. All 25 public assets matched the committed release by SHA-256, and the video server honored byte-range requests.
 - Both report formats contain the same two-page, 738-word analysis; PDF text and DOCX structure were validated.
 
 Technical evidence is recorded in `revision-v6/reports/`. These checks establish packaging, alignment and browser behavior; audio review used source alignment and loudness measurements.
+
+[Publication evidence](revision-v6/reports/publication.json) records the deployed website revision and the public verification results.
 
 ## Documentary and report source
 

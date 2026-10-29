@@ -27,6 +27,7 @@ revision-v6/reports/*
 !revision-v6/reports/exact-alignment.json
 !revision-v6/reports/final-probe.json
 !revision-v6/reports/final-check.json
+!revision-v6/reports/publication.json
 revision-v6/bootstrap.py
 revision-v6/Open-Editor.cmd
 VIDEO-WORKFLOW.md

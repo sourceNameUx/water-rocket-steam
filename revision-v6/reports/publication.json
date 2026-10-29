@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-29T15:25:41.104415+00:00",
+  "site": "https://sourceNameUx.github.io/water-rocket-steam/",
+  "repository": "https://github.com/sourceNameUx/water-rocket-steam",
+  "siteRevision": "2be6aa2691d9aa626e34bda3d4d0fe3fe161a601",
+  "pagesSource": {"branch": "main", "path": "/docs"},
+  "deploymentRun": "https://github.com/sourceNameUx/water-rocket-steam/actions/runs/40900790473",
+  "deploymentConclusion": "success",
+  "publicAssetCount": 25,
+  "allPublicAssetsMatchCommittedSha256": true,
+  "videoByteRangeSupported": true,
+  "browser": {
+    "viewportWidths": [1440, 390, 320, 768],
+    "horizontalOverflow": false,
+    "imagesLoaded": true,
+    "partSelectionAndKeyboardActivation": true,
+    "scienceDisclosure": true,
+    "pdfAndDocxDownloads": true,
+    "skipLinkAndSectionDestinations": true,
+    "finalLaunchChapterSeeksAndPlays": true,
+    "captionCues": 93,
+    "captionsDoNotOverlap": true,
+    "javascriptRuntimeErrors": 0,
+    "video": {"duration": 323.2, "width": 1280, "height": 720}
+  },
+  "commands": [
+    "$env:SITE_URL = 'https://sourceNameUx.github.io/water-rocket-steam/'; node scripts/verify_site.mjs",
+    "python scripts/verify_publication.py"
+  ],
+  "detailedLocalEvidence": ".impeccable/review/published/",
+  "scope": "Public deployment and committed asset integrity, plus the listed browser behavior checks."
+}

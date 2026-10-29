@@ -1,0 +1,37 @@
+{
+  "voice": "en-US-GuyNeural",
+  "rate": 1.05,
+  "appendAt": 237.2,
+  "duration": 86,
+  "source": "C:/Users/usuario/Downloads/VID_20261028_205927236.mp4",
+  "sourceIn": 375.5,
+  "sourceOut": 391.5,
+  "releaseBracket": [382.779, 382.812],
+  "sourceAudioOffset": 0.063396,
+  "evidence": "Upward movement at 382.812 seconds, followed by an unsupported descent. The foreground leg obscures the release mechanism. Height is the student's retrospective estimate, not a calibrated video measurement.",
+  "results": [
+    {"id": "first", "label": "First version", "heightMetres": 2, "goalPercent": 40, "shortfallMetres": 3},
+    {"id": "larger", "label": "Larger bottle", "heightMetres": 0.5, "goalPercent": 10, "shortfallMetres": 4.5},
+    {"id": "final", "label": "Final design", "heightMetres": 1, "goalPercent": 20, "shortfallMetres": 4}
+  ],
+  "assumptions": {
+    "bottleCapacityMl": 400,
+    "vinegarFillFraction": 0.25,
+    "vinegarDensityGramsPerMl": 1,
+    "bakingSodaBoxGrams": 50,
+    "bakingSodaBoxFraction": 0.5,
+    "dryRocketGrams": 60,
+    "dryRocketRangeGrams": [40, 80],
+    "bottleCapacitySensitivityMl": [400, 500],
+    "status": "Working assumptions from a personal-size bottle, quarter fill and half a small box. Product capacity, box size and dry mass are unverified. The green ground support is excluded."
+  },
+  "shots": [
+    {"id": "final-setup", "at": 0.65, "endBefore": 6.5, "speech": "This is my final test with the finished rocket."},
+    {"id": "final-release", "at": 7.8, "endBefore": 15.7, "speech": "There it goes. I estimated about one metre, still below my five metre goal."},
+    {"id": "comparison", "at": 16.5, "endBefore": 31.7, "speech": "My first version reached about two metres, the larger bottle half a metre, and the finished design one metre. That is forty, ten and twenty percent of the goal. The first version went highest."},
+    {"id": "quantities", "at": 32.5, "endBefore": 47.7, "speech": "For an estimate, I used a four hundred millilitre bottle as the starting point. A quarter full gives about one hundred millilitres of vinegar. Half of a fifty gram box gives twenty five grams of baking soda."},
+    {"id": "design-analysis", "at": 48.5, "endBefore": 61.7, "speech": "The fins help direction, but the fins and tape also add weight. A larger bottle needs more gas for the same pressure increase. Leaks, tilt and friction with the support could also reduce the flight."},
+    {"id": "mass-estimate", "at": 62.3, "endBefore": 71.7, "speech": "The mixture starts near one hundred twenty five grams. Adding an assumed sixty gram dry rocket gives about one hundred eighty five grams before release."},
+    {"id": "conclusion", "at": 72.5, "endBefore": 85.5, "speech": "I did not reach five metres. I would start with the lighter version, weigh each part, check the seal, and repeat the test while changing one thing at a time. A more finished appearance did not mean a higher flight."}
+  ]
+}

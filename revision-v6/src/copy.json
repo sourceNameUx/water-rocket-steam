@@ -1,0 +1,46 @@
+{
+  "opening": {
+    "title": "MI COHETE",
+    "tagline": "Del ensayo al despegue"
+  },
+  "chemistry": {
+    "title": "La reacci\u00f3n qu\u00edmica"
+  },
+  "physics": {
+    "title": "De la presi\u00f3n al movimiento"
+  },
+  "prototype": {
+    "title": "El primer prototipo"
+  },
+  "firsttests": {
+    "title": "Los primeros ensayos"
+  },
+  "diagnosis": {
+    "title": "\u00bfPor qu\u00e9 puede fallar?"
+  },
+  "rebuild": {
+    "title": "Una segunda versi\u00f3n"
+  },
+  "secondtests": {
+    "title": "Probar, observar, ajustar"
+  },
+  "name": "Santiago Cundumi Solis",
+  "attempt": "Intento",
+  "gas": "di\u00f3xido de carbono",
+  "ingredients": [
+    "vinagre",
+    "bicarbonato de sodio"
+  ],
+  "pressure": "presi\u00f3n",
+  "reaction": "reacci\u00f3n",
+  "water": "agua",
+  "diagnosisItems": [
+    "mezcla insuficiente",
+    "fugas de aire",
+    "poca estabilidad"
+  ],
+  "secondStage": "segunda etapa",
+  "firstSuccess": "\u00a1Lo logr\u00e9!",
+  "secondSuccess": "\u00a1M\u00e1s alto!",
+  "learningTitle": "Aprend\u00ed a medir"
+}

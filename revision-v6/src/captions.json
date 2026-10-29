@@ -1,0 +1,1696 @@
+[
+  {
+    "text": "Mi",
+    "startMs": 760,
+    "endMs": 980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "nombre",
+    "startMs": 992,
+    "endMs": 1258,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "es",
+    "startMs": 1269,
+    "endMs": 1362,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Santiago",
+    "startMs": 1374,
+    "endMs": 1790,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cundumi",
+    "startMs": 1802,
+    "endMs": 2184,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Solis",
+    "startMs": 2195,
+    "endMs": 2508,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Para",
+    "startMs": 7860,
+    "endMs": 8092,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 8103,
+    "endMs": 8172,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cohete",
+    "startMs": 8184,
+    "endMs": 8520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "us\u00e9",
+    "startMs": 8531,
+    "endMs": 8740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "una",
+    "startMs": 8751,
+    "endMs": 8890,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "botella",
+    "startMs": 8902,
+    "endMs": 9341,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "vinagre",
+    "startMs": 9573,
+    "endMs": 9943,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 9955,
+    "endMs": 9990,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "bicarbonato",
+    "startMs": 10001,
+    "endMs": 10580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 10592,
+    "endMs": 10696,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sodio",
+    "startMs": 10707,
+    "endMs": 11228,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Al",
+    "startMs": 13060,
+    "endMs": 13257,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mezclarlos",
+    "startMs": 13269,
+    "endMs": 13766,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "se",
+    "startMs": 13778,
+    "endMs": 13882,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "forma",
+    "startMs": 13894,
+    "endMs": 14137,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "di\u00f3xido",
+    "startMs": 14148,
+    "endMs": 14519,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 14530,
+    "endMs": 14623,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carbono",
+    "startMs": 14634,
+    "endMs": 15097,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 15329,
+    "endMs": 15456,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "gas",
+    "startMs": 15468,
+    "endMs": 15630,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "que",
+    "startMs": 15641,
+    "endMs": 15745,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "genera",
+    "startMs": 15757,
+    "endMs": 16023,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 16035,
+    "endMs": 16127,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "presi\u00f3n",
+    "startMs": 16139,
+    "endMs": 16729,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Ese",
+    "startMs": 18560,
+    "endMs": 18849,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "gas",
+    "startMs": 18861,
+    "endMs": 19035,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "empuja",
+    "startMs": 19046,
+    "endMs": 19463,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 19474,
+    "endMs": 19555,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "agua",
+    "startMs": 19567,
+    "endMs": 19787,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hacia",
+    "startMs": 19798,
+    "endMs": 20007,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "afuera",
+    "startMs": 20018,
+    "endMs": 20342,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 20354,
+    "endMs": 20423,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 20435,
+    "endMs": 20528,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cohete",
+    "startMs": 20539,
+    "endMs": 20852,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sube",
+    "startMs": 20863,
+    "endMs": 21326,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Primero",
+    "startMs": 25860,
+    "endMs": 26254,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pens\u00e9",
+    "startMs": 26265,
+    "endMs": 26601,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "que",
+    "startMs": 26612,
+    "endMs": 26716,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 26728,
+    "endMs": 26809,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "gas",
+    "startMs": 26821,
+    "endMs": 27017,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "era",
+    "startMs": 27029,
+    "endMs": 27145,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hidr\u00f3geno",
+    "startMs": 27156,
+    "endMs": 27654,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pero",
+    "startMs": 27851,
+    "endMs": 28048,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "en",
+    "startMs": 28059,
+    "endMs": 28152,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "realidad",
+    "startMs": 28163,
+    "endMs": 28568,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "es",
+    "startMs": 28580,
+    "endMs": 28696,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "di\u00f3xido",
+    "startMs": 28707,
+    "endMs": 29101,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 29112,
+    "endMs": 29182,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carbono",
+    "startMs": 29193,
+    "endMs": 29807,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "La",
+    "startMs": 31160,
+    "endMs": 31357,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "presi\u00f3n",
+    "startMs": 31369,
+    "endMs": 31693,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "empuja",
+    "startMs": 31704,
+    "endMs": 32121,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 32132,
+    "endMs": 32213,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "agua",
+    "startMs": 32225,
+    "endMs": 32433,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hacia",
+    "startMs": 32445,
+    "endMs": 32653,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "abajo",
+    "startMs": 32665,
+    "endMs": 33012,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 33024,
+    "endMs": 33081,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "por",
+    "startMs": 33255,
+    "endMs": 33405,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "reacci\u00f3n",
+    "startMs": 33417,
+    "endMs": 33892,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 34077,
+    "endMs": 34169,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cohete",
+    "startMs": 34181,
+    "endMs": 34494,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sube",
+    "startMs": 34505,
+    "endMs": 34980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Por",
+    "startMs": 36360,
+    "endMs": 36580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "eso",
+    "startMs": 36591,
+    "endMs": 36765,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cuid\u00e9",
+    "startMs": 36777,
+    "endMs": 37008,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 37020,
+    "endMs": 37101,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cantidad",
+    "startMs": 37112,
+    "endMs": 37517,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 37529,
+    "endMs": 37610,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "vinagre",
+    "startMs": 37622,
+    "endMs": 38038,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 38293,
+    "endMs": 38362,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "bicarbonato",
+    "startMs": 38374,
+    "endMs": 38953,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 38964,
+    "endMs": 39022,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 39034,
+    "endMs": 39126,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sellado",
+    "startMs": 39138,
+    "endMs": 39450,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 39462,
+    "endMs": 39543,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 39554,
+    "endMs": 39635,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tapa",
+    "startMs": 39647,
+    "endMs": 40110,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Para",
+    "startMs": 43760,
+    "endMs": 43980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 43991,
+    "endMs": 44061,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "primer",
+    "startMs": 44073,
+    "endMs": 44339,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prototipo",
+    "startMs": 44350,
+    "endMs": 44871,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "us\u00e9",
+    "startMs": 44883,
+    "endMs": 45103,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "una",
+    "startMs": 45114,
+    "endMs": 45265,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "botella",
+    "startMs": 45276,
+    "endMs": 45612,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "transparente",
+    "startMs": 45623,
+    "endMs": 46237,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 46248,
+    "endMs": 46318,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "una",
+    "startMs": 46329,
+    "endMs": 46457,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "base",
+    "startMs": 46468,
+    "endMs": 46711,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 46723,
+    "endMs": 46804,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cart\u00f3n",
+    "startMs": 46816,
+    "endMs": 47406,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Arm\u00e9",
+    "startMs": 48460,
+    "endMs": 48773,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 48784,
+    "endMs": 48854,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "montaje",
+    "startMs": 48865,
+    "endMs": 49363,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lo",
+    "startMs": 49641,
+    "endMs": 49722,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prob\u00e9",
+    "startMs": 49733,
+    "endMs": 49953,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "en",
+    "startMs": 49965,
+    "endMs": 50046,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 50057,
+    "endMs": 50162,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "patio",
+    "startMs": 50173,
+    "endMs": 50486,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 50497,
+    "endMs": 50555,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "anot\u00e9",
+    "startMs": 50567,
+    "endMs": 50833,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cada",
+    "startMs": 50844,
+    "endMs": 51030,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "resultado",
+    "startMs": 51041,
+    "endMs": 51782,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "As\u00ed",
+    "startMs": 53360,
+    "endMs": 53672,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "entend\u00ed",
+    "startMs": 53684,
+    "endMs": 54031,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "qu\u00e9",
+    "startMs": 54043,
+    "endMs": 54170,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "partes",
+    "startMs": 54182,
+    "endMs": 54517,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ten\u00eda",
+    "startMs": 54529,
+    "endMs": 54807,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "que",
+    "startMs": 54818,
+    "endMs": 54911,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "reforzar",
+    "startMs": 54922,
+    "endMs": 55513,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "El",
+    "startMs": 59560,
+    "endMs": 59768,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "primer",
+    "startMs": 59780,
+    "endMs": 60023,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "intento",
+    "startMs": 60035,
+    "endMs": 60440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lo",
+    "startMs": 60451,
+    "endMs": 60590,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hice",
+    "startMs": 60602,
+    "endMs": 60787,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "con",
+    "startMs": 60799,
+    "endMs": 60984,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "poca",
+    "startMs": 60995,
+    "endMs": 61215,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carga",
+    "startMs": 61227,
+    "endMs": 61516,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 61528,
+    "endMs": 61574,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "no",
+    "startMs": 61586,
+    "endMs": 61701,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "despeg\u00f3",
+    "startMs": 61713,
+    "endMs": 62280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "En",
+    "startMs": 65560,
+    "endMs": 65745,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 65757,
+    "endMs": 65849,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "segundo",
+    "startMs": 65861,
+    "endMs": 66185,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "intento",
+    "startMs": 66197,
+    "endMs": 66567,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ajust\u00e9",
+    "startMs": 66579,
+    "endMs": 66937,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 66949,
+    "endMs": 67042,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mezcla",
+    "startMs": 67053,
+    "endMs": 67447,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pero",
+    "startMs": 67667,
+    "endMs": 67829,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 67840,
+    "endMs": 67933,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tapa",
+    "startMs": 67944,
+    "endMs": 68199,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "se",
+    "startMs": 68211,
+    "endMs": 68326,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "abri\u00f3",
+    "startMs": 68338,
+    "endMs": 68546,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "antes",
+    "startMs": 68558,
+    "endMs": 68801,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 68812,
+    "endMs": 68893,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tiempo",
+    "startMs": 68905,
+    "endMs": 69426,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "En",
+    "startMs": 71712,
+    "endMs": 71897,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 71909,
+    "endMs": 72001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tercer",
+    "startMs": 72013,
+    "endMs": 72314,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "intento",
+    "startMs": 72326,
+    "endMs": 72684,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lo",
+    "startMs": 72696,
+    "endMs": 72789,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "logr\u00e9",
+    "startMs": 72800,
+    "endMs": 73113,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 75925,
+    "endMs": 76006,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "botella",
+    "startMs": 76018,
+    "endMs": 76388,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "subi\u00f3",
+    "startMs": 76400,
+    "endMs": 76735,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 76747,
+    "endMs": 76793,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cay\u00f3",
+    "startMs": 76805,
+    "endMs": 77036,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lejos",
+    "startMs": 77048,
+    "endMs": 77626,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Aprend\u00ed",
+    "startMs": 78360,
+    "endMs": 78835,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 78846,
+    "endMs": 78881,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "medir",
+    "startMs": 78893,
+    "endMs": 79136,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cantidades",
+    "startMs": 79147,
+    "endMs": 79761,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "masa",
+    "startMs": 80038,
+    "endMs": 80339,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 80351,
+    "endMs": 80397,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tiempo",
+    "startMs": 80409,
+    "endMs": 80698,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 80710,
+    "endMs": 80791,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "respuesta",
+    "startMs": 80802,
+    "endMs": 81508,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Analic\u00e9",
+    "startMs": 83660,
+    "endMs": 84181,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "por",
+    "startMs": 84193,
+    "endMs": 84343,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "qu\u00e9",
+    "startMs": 84355,
+    "endMs": 84459,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fallaban",
+    "startMs": 84470,
+    "endMs": 84887,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mezcla",
+    "startMs": 85142,
+    "endMs": 85419,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "insuficiente",
+    "startMs": 85431,
+    "endMs": 86125,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fugas",
+    "startMs": 86345,
+    "endMs": 86669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 86681,
+    "endMs": 86762,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "aire",
+    "startMs": 86774,
+    "endMs": 87005,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 87017,
+    "endMs": 87086,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "poca",
+    "startMs": 87098,
+    "endMs": 87341,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "estabilidad",
+    "startMs": 87352,
+    "endMs": 87954,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cambi\u00e9",
+    "startMs": 89460,
+    "endMs": 89842,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 89853,
+    "endMs": 89934,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sellado",
+    "startMs": 89946,
+    "endMs": 90282,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 90293,
+    "endMs": 90316,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 90328,
+    "endMs": 90409,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "proporci\u00f3n",
+    "startMs": 90421,
+    "endMs": 90976,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 91254,
+    "endMs": 91266,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lo",
+    "startMs": 91277,
+    "endMs": 91370,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prob\u00e9",
+    "startMs": 91381,
+    "endMs": 91613,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "otra",
+    "startMs": 91624,
+    "endMs": 91798,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "vez",
+    "startMs": 91810,
+    "endMs": 92191,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Reun\u00ed",
+    "startMs": 95860,
+    "endMs": 96288,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "los",
+    "startMs": 96300,
+    "endMs": 96439,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "materiales",
+    "startMs": 96450,
+    "endMs": 97052,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "vinagre",
+    "startMs": 97284,
+    "endMs": 97712,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "bicarbonato",
+    "startMs": 97978,
+    "endMs": 98673,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "agua",
+    "startMs": 98950,
+    "endMs": 99228,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "botellas",
+    "startMs": 99448,
+    "endMs": 99899,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 99911,
+    "endMs": 99957,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cinta",
+    "startMs": 99969,
+    "endMs": 100490,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Con",
+    "startMs": 101360,
+    "endMs": 101591,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ayuda",
+    "startMs": 101603,
+    "endMs": 101869,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "de",
+    "startMs": 101881,
+    "endMs": 101962,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mi",
+    "startMs": 101973,
+    "endMs": 102078,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "familia",
+    "startMs": 102089,
+    "endMs": 102448,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "arm\u00e9",
+    "startMs": 102460,
+    "endMs": 102703,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "y",
+    "startMs": 102714,
+    "endMs": 102772,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ajust\u00e9",
+    "startMs": 102784,
+    "endMs": 103142,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cada",
+    "startMs": 103154,
+    "endMs": 103339,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "montaje",
+    "startMs": 103351,
+    "endMs": 103953,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Anot\u00e9",
+    "startMs": 106860,
+    "endMs": 107242,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "las",
+    "startMs": 107253,
+    "endMs": 107404,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "medidas",
+    "startMs": 107416,
+    "endMs": 107786,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "para",
+    "startMs": 107797,
+    "endMs": 107983,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "poder",
+    "startMs": 107994,
+    "endMs": 108249,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "repetir",
+    "startMs": 108260,
+    "endMs": 108642,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 108654,
+    "endMs": 108747,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prueba",
+    "startMs": 108758,
+    "endMs": 109233,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 115310,
+    "endMs": 115796,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "uno",
+    "startMs": 115808,
+    "endMs": 116132,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 120310,
+    "endMs": 120808,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "dos",
+    "startMs": 120819,
+    "endMs": 121247,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 122910,
+    "endMs": 123408,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tres",
+    "startMs": 123419,
+    "endMs": 123836,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 125510,
+    "endMs": 126008,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cuatro",
+    "startMs": 126019,
+    "endMs": 126494,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 130510,
+    "endMs": 130985,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cinco",
+    "startMs": 130996,
+    "endMs": 131436,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 135510,
+    "endMs": 135962,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "seis",
+    "startMs": 135973,
+    "endMs": 136448,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 140510,
+    "endMs": 141019,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "siete",
+    "startMs": 141031,
+    "endMs": 141413,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 145510,
+    "endMs": 146031,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ocho",
+    "startMs": 146042,
+    "endMs": 146424,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 150510,
+    "endMs": 150996,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "nueve",
+    "startMs": 151008,
+    "endMs": 151401,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Intento",
+    "startMs": 155510,
+    "endMs": 155973,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "diez",
+    "startMs": 155985,
+    "endMs": 156367,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "En",
+    "startMs": 160199,
+    "endMs": 160384,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "la",
+    "startMs": 160396,
+    "endMs": 160488,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "segunda",
+    "startMs": 160500,
+    "endMs": 160859,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "etapa",
+    "startMs": 160870,
+    "endMs": 161206,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "el",
+    "startMs": 161217,
+    "endMs": 161310,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cohete",
+    "startMs": 161322,
+    "endMs": 161669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "subi\u00f3",
+    "startMs": 161680,
+    "endMs": 161958,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mucho",
+    "startMs": 161970,
+    "endMs": 162248,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "m\u00e1s",
+    "startMs": 162259,
+    "endMs": 162444,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "alto",
+    "startMs": 162456,
+    "endMs": 162919,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

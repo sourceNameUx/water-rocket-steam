@@ -1,0 +1,3789 @@
+{
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "durationInFrames": 9696,
+  "finalSubmission": true,
+  "endingPending": true,
+  "sections": [
+    {
+      "id": "opening",
+      "kind": "opening",
+      "from": 0,
+      "frames": 210
+    },
+    {
+      "id": "chemistry",
+      "kind": "chemistry",
+      "from": 210,
+      "frames": 540
+    },
+    {
+      "id": "physics",
+      "kind": "physics",
+      "from": 750,
+      "frames": 540
+    },
+    {
+      "id": "prototype",
+      "kind": "prototype",
+      "from": 1290,
+      "frames": 480
+    },
+    {
+      "id": "first-test",
+      "kind": "trial",
+      "from": 1770,
+      "frames": 180,
+      "source": "v01",
+      "attempt": 1,
+      "stage": 1
+    },
+    {
+      "id": "second-test",
+      "kind": "trial",
+      "from": 1950,
+      "frames": 180,
+      "source": "v13",
+      "attempt": 2,
+      "stage": 1
+    },
+    {
+      "id": "first-launch",
+      "kind": "trial",
+      "from": 2130,
+      "frames": 90,
+      "source": "v14",
+      "attempt": 3,
+      "stage": 1,
+      "original": true
+    },
+    {
+      "id": "first-replay",
+      "kind": "trial",
+      "from": 2220,
+      "frames": 120,
+      "source": "v14",
+      "attempt": 3,
+      "stage": 1,
+      "replay": true,
+      "trim": 0.55,
+      "speed": 0.4
+    },
+    {
+      "id": "first-result",
+      "kind": "result",
+      "from": 2340,
+      "frames": 150
+    },
+    {
+      "id": "diagnosis",
+      "kind": "diagnosis",
+      "from": 2490,
+      "frames": 360
+    },
+    {
+      "id": "rebuild",
+      "kind": "rebuild",
+      "from": 2850,
+      "frames": 540
+    },
+    {
+      "id": "second-stage",
+      "kind": "chapter",
+      "from": 3390,
+      "frames": 60
+    },
+    {
+      "id": "attempt-01",
+      "kind": "trial",
+      "from": 3450,
+      "frames": 150,
+      "source": "v03",
+      "attempt": 1,
+      "stage": 2
+    },
+    {
+      "id": "attempt-02",
+      "kind": "trial",
+      "from": 3600,
+      "frames": 78,
+      "source": "v05",
+      "attempt": 2,
+      "stage": 2
+    },
+    {
+      "id": "attempt-03",
+      "kind": "trial",
+      "from": 3678,
+      "frames": 78,
+      "source": "v06",
+      "attempt": 3,
+      "stage": 2
+    },
+    {
+      "id": "attempt-04",
+      "kind": "trial",
+      "from": 3756,
+      "frames": 150,
+      "source": "v07",
+      "attempt": 4,
+      "stage": 2
+    },
+    {
+      "id": "attempt-05",
+      "kind": "trial",
+      "from": 3906,
+      "frames": 150,
+      "source": "v08",
+      "attempt": 5,
+      "stage": 2
+    },
+    {
+      "id": "attempt-06",
+      "kind": "trial",
+      "from": 4056,
+      "frames": 150,
+      "source": "v09",
+      "attempt": 6,
+      "stage": 2
+    },
+    {
+      "id": "attempt-07",
+      "kind": "trial",
+      "from": 4206,
+      "frames": 150,
+      "source": "v10",
+      "attempt": 7,
+      "stage": 2
+    },
+    {
+      "id": "attempt-08",
+      "kind": "trial",
+      "from": 4356,
+      "frames": 150,
+      "source": "v11",
+      "attempt": 8,
+      "stage": 2
+    },
+    {
+      "id": "attempt-09",
+      "kind": "trial",
+      "from": 4506,
+      "frames": 150,
+      "source": "v12",
+      "attempt": 9,
+      "stage": 2
+    },
+    {
+      "id": "attempt-10",
+      "kind": "trial",
+      "from": 4656,
+      "frames": 150,
+      "source": "v04",
+      "attempt": 10,
+      "stage": 2
+    },
+    {
+      "id": "second-launch",
+      "kind": "trial",
+      "from": 4806,
+      "frames": 135,
+      "source": "v02",
+      "attempt": 11,
+      "stage": 2,
+      "original": true
+    },
+    {
+      "id": "second-replay",
+      "kind": "trial",
+      "from": 4941,
+      "frames": 135,
+      "source": "v02",
+      "attempt": 11,
+      "stage": 2,
+      "replay": true,
+      "trim": 0.7,
+      "speed": 0.4
+    },
+    {
+      "id": "design-reveal",
+      "kind": "design-photo",
+      "from": 5076,
+      "frames": 180
+    },
+    {
+      "id": "design-fins",
+      "kind": "design-photo",
+      "from": 5256,
+      "frames": 300
+    },
+    {
+      "id": "design-base",
+      "kind": "design-photo",
+      "from": 5556,
+      "frames": 240
+    },
+    {
+      "id": "design-nose",
+      "kind": "design-photo",
+      "from": 5796,
+      "frames": 240
+    },
+    {
+      "id": "design-assembly",
+      "kind": "design-photo",
+      "from": 6036,
+      "frames": 240
+    },
+    {
+      "id": "design-science",
+      "kind": "design-photo",
+      "from": 6276,
+      "frames": 300
+    },
+    {
+      "id": "design-height",
+      "kind": "design-photo",
+      "from": 6576,
+      "frames": 540
+    },
+    {
+      "id": "final-footage",
+      "kind": "results",
+      "from": 7116,
+      "frames": 300
+    },
+    {
+      "id": "results-chart",
+      "kind": "results",
+      "from": 7416,
+      "frames": 480
+    },
+    {
+      "id": "results-bottle",
+      "kind": "results",
+      "from": 7896,
+      "frames": 480
+    },
+    {
+      "id": "results-design",
+      "kind": "results",
+      "from": 8376,
+      "frames": 480
+    },
+    {
+      "id": "results-limits",
+      "kind": "results",
+      "from": 8856,
+      "frames": 360
+    },
+    {
+      "id": "results-conclusion",
+      "kind": "results",
+      "from": 9216,
+      "frames": 480
+    }
+  ],
+  "media": {
+    "v01": {
+      "src": "media/v01.mp4",
+      "sourceIn": 85.0,
+      "duration": 6.0,
+      "landscape": false
+    },
+    "v13": {
+      "src": "media/v13.mp4",
+      "sourceIn": 108.0,
+      "duration": 6.0,
+      "landscape": false
+    },
+    "v14": {
+      "src": "media/v14.mp4",
+      "sourceIn": 9.0,
+      "duration": 3.0,
+      "landscape": false
+    },
+    "v03": {
+      "src": "media/v03.mp4",
+      "sourceIn": 153.0,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v05": {
+      "src": "media/v05.mp4",
+      "sourceIn": 0.0,
+      "duration": 2.6,
+      "landscape": true
+    },
+    "v06": {
+      "src": "media/v06.mp4",
+      "sourceIn": 0.0,
+      "duration": 2.6,
+      "landscape": false
+    },
+    "v07": {
+      "src": "media/v07.mp4",
+      "sourceIn": 114.0,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v08": {
+      "src": "media/v08.mp4",
+      "sourceIn": 13.5,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v09": {
+      "src": "media/v09.mp4",
+      "sourceIn": 47.0,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v10": {
+      "src": "media/v10.mp4",
+      "sourceIn": 5.3,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v11": {
+      "src": "media/v11.mp4",
+      "sourceIn": 0.0,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v12": {
+      "src": "media/v12.mp4",
+      "sourceIn": 5.0,
+      "duration": 5.0,
+      "landscape": true
+    },
+    "v04": {
+      "src": "media/v04.mp4",
+      "sourceIn": 1.2,
+      "duration": 5.0,
+      "landscape": false
+    },
+    "v02": {
+      "src": "media/v02.mp4",
+      "sourceIn": 50.0,
+      "duration": 4.5,
+      "landscape": false
+    }
+  },
+  "words": [
+    {
+      "text": "Soy",
+      "start": 0.27,
+      "end": 0.571
+    },
+    {
+      "text": "Santiago",
+      "start": 0.582,
+      "end": 1.045
+    },
+    {
+      "text": "Cundumi",
+      "start": 1.057,
+      "end": 1.4389999999999998
+    },
+    {
+      "text": "Solis",
+      "start": 1.4509999999999998,
+      "end": 1.763
+    },
+    {
+      "text": "y",
+      "start": 1.775,
+      "end": 1.833
+    },
+    {
+      "text": "este",
+      "start": 1.8439999999999999,
+      "end": 2.076
+    },
+    {
+      "text": "es",
+      "start": 2.087,
+      "end": 2.2030000000000003
+    },
+    {
+      "text": "mi",
+      "start": 2.2140000000000004,
+      "end": 2.3070000000000004
+    },
+    {
+      "text": "proyecto",
+      "start": 2.3190000000000004,
+      "end": 2.6890000000000005
+    },
+    {
+      "text": "STEAM",
+      "start": 2.7010000000000005,
+      "end": 3.0940000000000003
+    },
+    {
+      "text": "competencia",
+      "start": 3.2790000000000004,
+      "end": 3.8350000000000004
+    },
+    {
+      "text": "de",
+      "start": 3.8460000000000005,
+      "end": 3.9160000000000004
+    },
+    {
+      "text": "cohetes",
+      "start": 3.9270000000000005,
+      "end": 4.286
+    },
+    {
+      "text": "de",
+      "start": 4.298,
+      "end": 4.39
+    },
+    {
+      "text": "agua",
+      "start": 4.402,
+      "end": 4.819
+    },
+    {
+      "text": "Para",
+      "start": 7.859999999999999,
+      "end": 8.092
+    },
+    {
+      "text": "el",
+      "start": 8.103,
+      "end": 8.171999999999999
+    },
+    {
+      "text": "cohete",
+      "start": 8.184,
+      "end": 8.52
+    },
+    {
+      "text": "us\u00e9",
+      "start": 8.531,
+      "end": 8.74
+    },
+    {
+      "text": "una",
+      "start": 8.751,
+      "end": 8.889999999999999
+    },
+    {
+      "text": "botella",
+      "start": 8.902,
+      "end": 9.341
+    },
+    {
+      "text": "vinagre",
+      "start": 9.572999999999999,
+      "end": 9.943
+    },
+    {
+      "text": "y",
+      "start": 9.955,
+      "end": 9.99
+    },
+    {
+      "text": "bicarbonato",
+      "start": 10.001,
+      "end": 10.58
+    },
+    {
+      "text": "de",
+      "start": 10.592,
+      "end": 10.696
+    },
+    {
+      "text": "sodio",
+      "start": 10.706999999999999,
+      "end": 11.228
+    },
+    {
+      "text": "Al",
+      "start": 13.060000000000002,
+      "end": 13.257000000000001
+    },
+    {
+      "text": "mezclarlos",
+      "start": 13.269000000000002,
+      "end": 13.766000000000002
+    },
+    {
+      "text": "se",
+      "start": 13.777999999999999,
+      "end": 13.882000000000001
+    },
+    {
+      "text": "forma",
+      "start": 13.894000000000002,
+      "end": 14.137
+    },
+    {
+      "text": "di\u00f3xido",
+      "start": 14.148000000000003,
+      "end": 14.519000000000002
+    },
+    {
+      "text": "de",
+      "start": 14.530000000000001,
+      "end": 14.623000000000001
+    },
+    {
+      "text": "carbono",
+      "start": 14.634,
+      "end": 15.097000000000001
+    },
+    {
+      "text": "el",
+      "start": 15.329,
+      "end": 15.456000000000003
+    },
+    {
+      "text": "gas",
+      "start": 15.468000000000004,
+      "end": 15.630000000000003
+    },
+    {
+      "text": "que",
+      "start": 15.641000000000002,
+      "end": 15.745000000000001
+    },
+    {
+      "text": "genera",
+      "start": 15.757000000000001,
+      "end": 16.023000000000003
+    },
+    {
+      "text": "la",
+      "start": 16.035000000000004,
+      "end": 16.127000000000002
+    },
+    {
+      "text": "presi\u00f3n",
+      "start": 16.139000000000003,
+      "end": 16.729
+    },
+    {
+      "text": "Si",
+      "start": 18.55,
+      "end": 18.805
+    },
+    {
+      "text": "el",
+      "start": 18.816,
+      "end": 18.897
+    },
+    {
+      "text": "gas",
+      "start": 18.909,
+      "end": 19.070999999999998
+    },
+    {
+      "text": "escapa",
+      "start": 19.082,
+      "end": 19.453
+    },
+    {
+      "text": "antes",
+      "start": 19.464,
+      "end": 19.695999999999998
+    },
+    {
+      "text": "de",
+      "start": 19.707,
+      "end": 19.788
+    },
+    {
+      "text": "tiempo",
+      "start": 19.8,
+      "end": 20.227999999999998
+    },
+    {
+      "text": "queda",
+      "start": 20.448,
+      "end": 20.645
+    },
+    {
+      "text": "menos",
+      "start": 20.657,
+      "end": 20.910999999999998
+    },
+    {
+      "text": "presi\u00f3n",
+      "start": 20.923,
+      "end": 21.305
+    },
+    {
+      "text": "para",
+      "start": 21.316,
+      "end": 21.455
+    },
+    {
+      "text": "el",
+      "start": 21.467,
+      "end": 21.512999999999998
+    },
+    {
+      "text": "despegue",
+      "start": 21.525,
+      "end": 22.092
+    },
+    {
+      "text": "Primero",
+      "start": 25.86,
+      "end": 26.253999999999998
+    },
+    {
+      "text": "pens\u00e9",
+      "start": 26.265,
+      "end": 26.601
+    },
+    {
+      "text": "que",
+      "start": 26.612000000000002,
+      "end": 26.716
+    },
+    {
+      "text": "el",
+      "start": 26.728,
+      "end": 26.808999999999997
+    },
+    {
+      "text": "gas",
+      "start": 26.820999999999998,
+      "end": 27.017000000000003
+    },
+    {
+      "text": "era",
+      "start": 27.029000000000003,
+      "end": 27.145000000000003
+    },
+    {
+      "text": "hidr\u00f3geno",
+      "start": 27.156,
+      "end": 27.654000000000003
+    },
+    {
+      "text": "pero",
+      "start": 27.851,
+      "end": 28.047999999999995
+    },
+    {
+      "text": "en",
+      "start": 28.058999999999997,
+      "end": 28.151999999999994
+    },
+    {
+      "text": "realidad",
+      "start": 28.163000000000004,
+      "end": 28.567999999999998
+    },
+    {
+      "text": "es",
+      "start": 28.58,
+      "end": 28.695999999999998
+    },
+    {
+      "text": "di\u00f3xido",
+      "start": 28.707,
+      "end": 29.101
+    },
+    {
+      "text": "de",
+      "start": 29.112000000000002,
+      "end": 29.181999999999995
+    },
+    {
+      "text": "carbono",
+      "start": 29.192999999999998,
+      "end": 29.806999999999995
+    },
+    {
+      "text": "La",
+      "start": 31.160000000000004,
+      "end": 31.357
+    },
+    {
+      "text": "presi\u00f3n",
+      "start": 31.369,
+      "end": 31.692999999999998
+    },
+    {
+      "text": "empuja",
+      "start": 31.704,
+      "end": 32.121
+    },
+    {
+      "text": "el",
+      "start": 32.132,
+      "end": 32.213
+    },
+    {
+      "text": "agua",
+      "start": 32.225,
+      "end": 32.433
+    },
+    {
+      "text": "hacia",
+      "start": 32.445,
+      "end": 32.653
+    },
+    {
+      "text": "abajo",
+      "start": 32.665,
+      "end": 33.012
+    },
+    {
+      "text": "y",
+      "start": 33.023999999999994,
+      "end": 33.080999999999996
+    },
+    {
+      "text": "por",
+      "start": 33.255,
+      "end": 33.404999999999994
+    },
+    {
+      "text": "reacci\u00f3n",
+      "start": 33.416999999999994,
+      "end": 33.892
+    },
+    {
+      "text": "el",
+      "start": 34.077,
+      "end": 34.169000000000004
+    },
+    {
+      "text": "cohete",
+      "start": 34.181,
+      "end": 34.494
+    },
+    {
+      "text": "sube",
+      "start": 34.505,
+      "end": 34.98
+    },
+    {
+      "text": "Por",
+      "start": 36.36,
+      "end": 36.58
+    },
+    {
+      "text": "eso",
+      "start": 36.590999999999994,
+      "end": 36.765
+    },
+    {
+      "text": "cuid\u00e9",
+      "start": 36.777,
+      "end": 37.007999999999996
+    },
+    {
+      "text": "la",
+      "start": 37.019999999999996,
+      "end": 37.101
+    },
+    {
+      "text": "cantidad",
+      "start": 37.11200000000001,
+      "end": 37.516999999999996
+    },
+    {
+      "text": "de",
+      "start": 37.528999999999996,
+      "end": 37.61
+    },
+    {
+      "text": "vinagre",
+      "start": 37.622,
+      "end": 38.038
+    },
+    {
+      "text": "el",
+      "start": 38.29299999999999,
+      "end": 38.36200000000001
+    },
+    {
+      "text": "bicarbonato",
+      "start": 38.373999999999995,
+      "end": 38.953
+    },
+    {
+      "text": "y",
+      "start": 38.964,
+      "end": 39.022000000000006
+    },
+    {
+      "text": "el",
+      "start": 39.034000000000006,
+      "end": 39.126000000000005
+    },
+    {
+      "text": "sellado",
+      "start": 39.138000000000005,
+      "end": 39.45
+    },
+    {
+      "text": "de",
+      "start": 39.462,
+      "end": 39.54299999999999
+    },
+    {
+      "text": "la",
+      "start": 39.554,
+      "end": 39.635000000000005
+    },
+    {
+      "text": "tapa",
+      "start": 39.647000000000006,
+      "end": 40.11
+    },
+    {
+      "text": "Para",
+      "start": 43.760000000000005,
+      "end": 43.980000000000004
+    },
+    {
+      "text": "el",
+      "start": 43.991,
+      "end": 44.06100000000001
+    },
+    {
+      "text": "primer",
+      "start": 44.07300000000001,
+      "end": 44.339
+    },
+    {
+      "text": "prototipo",
+      "start": 44.349999999999994,
+      "end": 44.87100000000001
+    },
+    {
+      "text": "us\u00e9",
+      "start": 44.88300000000001,
+      "end": 45.10300000000001
+    },
+    {
+      "text": "una",
+      "start": 45.114000000000004,
+      "end": 45.265
+    },
+    {
+      "text": "botella",
+      "start": 45.27600000000001,
+      "end": 45.611999999999995
+    },
+    {
+      "text": "transparente",
+      "start": 45.623000000000005,
+      "end": 46.236999999999995
+    },
+    {
+      "text": "y",
+      "start": 46.248000000000005,
+      "end": 46.31800000000001
+    },
+    {
+      "text": "una",
+      "start": 46.32900000000001,
+      "end": 46.456999999999994
+    },
+    {
+      "text": "base",
+      "start": 46.468,
+      "end": 46.71100000000001
+    },
+    {
+      "text": "de",
+      "start": 46.72300000000001,
+      "end": 46.804
+    },
+    {
+      "text": "cart\u00f3n",
+      "start": 46.816,
+      "end": 47.406000000000006
+    },
+    {
+      "text": "Arm\u00e9",
+      "start": 48.449999999999996,
+      "end": 48.763
+    },
+    {
+      "text": "el",
+      "start": 48.773999999999994,
+      "end": 48.843999999999994
+    },
+    {
+      "text": "montaje",
+      "start": 48.855,
+      "end": 49.340999999999994
+    },
+    {
+      "text": "lo",
+      "start": 49.631,
+      "end": 49.699999999999996
+    },
+    {
+      "text": "prob\u00e9",
+      "start": 49.711999999999996,
+      "end": 49.931999999999995
+    },
+    {
+      "text": "en",
+      "start": 49.943,
+      "end": 50.023999999999994
+    },
+    {
+      "text": "el",
+      "start": 50.035999999999994,
+      "end": 50.13999999999999
+    },
+    {
+      "text": "patio",
+      "start": 50.151999999999994,
+      "end": 50.464
+    },
+    {
+      "text": "y",
+      "start": 50.476,
+      "end": 50.51
+    },
+    {
+      "text": "grab\u00e9",
+      "start": 50.522,
+      "end": 50.742
+    },
+    {
+      "text": "los",
+      "start": 50.753,
+      "end": 50.903999999999996
+    },
+    {
+      "text": "intentos",
+      "start": 50.915,
+      "end": 51.598
+    },
+    {
+      "text": "As\u00ed",
+      "start": 53.36,
+      "end": 53.672
+    },
+    {
+      "text": "entend\u00ed",
+      "start": 53.684,
+      "end": 54.03099999999999
+    },
+    {
+      "text": "qu\u00e9",
+      "start": 54.04299999999999,
+      "end": 54.17
+    },
+    {
+      "text": "partes",
+      "start": 54.182,
+      "end": 54.516999999999996
+    },
+    {
+      "text": "ten\u00eda",
+      "start": 54.528999999999996,
+      "end": 54.807
+    },
+    {
+      "text": "que",
+      "start": 54.818,
+      "end": 54.91099999999999
+    },
+    {
+      "text": "reforzar",
+      "start": 54.922,
+      "end": 55.51299999999999
+    },
+    {
+      "text": "El",
+      "start": 59.559999999999995,
+      "end": 59.767999999999994
+    },
+    {
+      "text": "primer",
+      "start": 59.779999999999994,
+      "end": 60.023
+    },
+    {
+      "text": "intento",
+      "start": 60.035000000000004,
+      "end": 60.440000000000005
+    },
+    {
+      "text": "lo",
+      "start": 60.451,
+      "end": 60.589999999999996
+    },
+    {
+      "text": "hice",
+      "start": 60.602,
+      "end": 60.787
+    },
+    {
+      "text": "con",
+      "start": 60.799,
+      "end": 60.984
+    },
+    {
+      "text": "poca",
+      "start": 60.995,
+      "end": 61.214999999999996
+    },
+    {
+      "text": "carga",
+      "start": 61.227,
+      "end": 61.51600000000001
+    },
+    {
+      "text": "y",
+      "start": 61.52800000000001,
+      "end": 61.574000000000005
+    },
+    {
+      "text": "no",
+      "start": 61.586000000000006,
+      "end": 61.701
+    },
+    {
+      "text": "despeg\u00f3",
+      "start": 61.713,
+      "end": 62.279999999999994
+    },
+    {
+      "text": "En",
+      "start": 65.56,
+      "end": 65.745
+    },
+    {
+      "text": "el",
+      "start": 65.757,
+      "end": 65.849
+    },
+    {
+      "text": "segundo",
+      "start": 65.861,
+      "end": 66.185
+    },
+    {
+      "text": "intento",
+      "start": 66.197,
+      "end": 66.56700000000001
+    },
+    {
+      "text": "ajust\u00e9",
+      "start": 66.57900000000001,
+      "end": 66.93700000000001
+    },
+    {
+      "text": "la",
+      "start": 66.94900000000001,
+      "end": 67.042
+    },
+    {
+      "text": "mezcla",
+      "start": 67.053,
+      "end": 67.447
+    },
+    {
+      "text": "pero",
+      "start": 67.667,
+      "end": 67.82900000000001
+    },
+    {
+      "text": "la",
+      "start": 67.84,
+      "end": 67.933
+    },
+    {
+      "text": "tapa",
+      "start": 67.944,
+      "end": 68.19900000000001
+    },
+    {
+      "text": "se",
+      "start": 68.21100000000001,
+      "end": 68.326
+    },
+    {
+      "text": "abri\u00f3",
+      "start": 68.338,
+      "end": 68.546
+    },
+    {
+      "text": "antes",
+      "start": 68.558,
+      "end": 68.801
+    },
+    {
+      "text": "de",
+      "start": 68.81200000000001,
+      "end": 68.893
+    },
+    {
+      "text": "tiempo",
+      "start": 68.905,
+      "end": 69.426
+    },
+    {
+      "text": "En",
+      "start": 71.71200000000002,
+      "end": 71.89700000000002
+    },
+    {
+      "text": "el",
+      "start": 71.90900000000002,
+      "end": 72.001
+    },
+    {
+      "text": "tercer",
+      "start": 72.013,
+      "end": 72.31400000000002
+    },
+    {
+      "text": "intento",
+      "start": 72.32600000000002,
+      "end": 72.684
+    },
+    {
+      "text": "lo",
+      "start": 72.696,
+      "end": 72.78900000000002
+    },
+    {
+      "text": "logr\u00e9",
+      "start": 72.80000000000001,
+      "end": 73.113
+    },
+    {
+      "text": "la",
+      "start": 75.925,
+      "end": 76.00599999999999
+    },
+    {
+      "text": "botella",
+      "start": 76.01799999999999,
+      "end": 76.38799999999999
+    },
+    {
+      "text": "subi\u00f3",
+      "start": 76.39999999999999,
+      "end": 76.735
+    },
+    {
+      "text": "y",
+      "start": 76.747,
+      "end": 76.79299999999999
+    },
+    {
+      "text": "cay\u00f3",
+      "start": 76.80499999999999,
+      "end": 77.03599999999999
+    },
+    {
+      "text": "lejos",
+      "start": 77.04799999999999,
+      "end": 77.62599999999999
+    },
+    {
+      "text": "Aprend\u00ed",
+      "start": 78.35,
+      "end": 78.78999999999999
+    },
+    {
+      "text": "que",
+      "start": 78.80199999999999,
+      "end": 78.90599999999999
+    },
+    {
+      "text": "deb\u00eda",
+      "start": 78.917,
+      "end": 79.18299999999999
+    },
+    {
+      "text": "registrar",
+      "start": 79.195,
+      "end": 79.646
+    },
+    {
+      "text": "cantidades",
+      "start": 79.658,
+      "end": 80.271
+    },
+    {
+      "text": "altura",
+      "start": 80.515,
+      "end": 80.85
+    },
+    {
+      "text": "y",
+      "start": 80.862,
+      "end": 80.92
+    },
+    {
+      "text": "tiempo",
+      "start": 80.931,
+      "end": 81.22
+    },
+    {
+      "text": "de",
+      "start": 81.232,
+      "end": 81.31299999999999
+    },
+    {
+      "text": "vuelo",
+      "start": 81.32499999999999,
+      "end": 81.741
+    },
+    {
+      "text": "Analic\u00e9",
+      "start": 83.66,
+      "end": 84.18099999999998
+    },
+    {
+      "text": "por",
+      "start": 84.19299999999998,
+      "end": 84.34300000000002
+    },
+    {
+      "text": "qu\u00e9",
+      "start": 84.35499999999999,
+      "end": 84.459
+    },
+    {
+      "text": "fallaban",
+      "start": 84.47,
+      "end": 84.887
+    },
+    {
+      "text": "mezcla",
+      "start": 85.142,
+      "end": 85.41899999999998
+    },
+    {
+      "text": "insuficiente",
+      "start": 85.43099999999998,
+      "end": 86.125
+    },
+    {
+      "text": "fugas",
+      "start": 86.345,
+      "end": 86.66899999999998
+    },
+    {
+      "text": "de",
+      "start": 86.68099999999998,
+      "end": 86.762
+    },
+    {
+      "text": "aire",
+      "start": 86.774,
+      "end": 87.005
+    },
+    {
+      "text": "y",
+      "start": 87.017,
+      "end": 87.08600000000001
+    },
+    {
+      "text": "poca",
+      "start": 87.09800000000001,
+      "end": 87.34100000000001
+    },
+    {
+      "text": "estabilidad",
+      "start": 87.352,
+      "end": 87.95400000000001
+    },
+    {
+      "text": "Cambi\u00e9",
+      "start": 89.46000000000002,
+      "end": 89.84200000000003
+    },
+    {
+      "text": "el",
+      "start": 89.853,
+      "end": 89.93400000000001
+    },
+    {
+      "text": "sellado",
+      "start": 89.94600000000001,
+      "end": 90.28200000000002
+    },
+    {
+      "text": "y",
+      "start": 90.29299999999999,
+      "end": 90.31600000000002
+    },
+    {
+      "text": "la",
+      "start": 90.32800000000002,
+      "end": 90.409
+    },
+    {
+      "text": "proporci\u00f3n",
+      "start": 90.421,
+      "end": 90.97600000000001
+    },
+    {
+      "text": "y",
+      "start": 91.254,
+      "end": 91.266
+    },
+    {
+      "text": "lo",
+      "start": 91.277,
+      "end": 91.36999999999999
+    },
+    {
+      "text": "prob\u00e9",
+      "start": 91.38100000000001,
+      "end": 91.61299999999999
+    },
+    {
+      "text": "otra",
+      "start": 91.62400000000001,
+      "end": 91.79799999999999
+    },
+    {
+      "text": "vez",
+      "start": 91.80999999999999,
+      "end": 92.19100000000002
+    },
+    {
+      "text": "Reun\u00ed",
+      "start": 95.86,
+      "end": 96.288
+    },
+    {
+      "text": "los",
+      "start": 96.3,
+      "end": 96.43899999999998
+    },
+    {
+      "text": "materiales",
+      "start": 96.45,
+      "end": 97.052
+    },
+    {
+      "text": "vinagre",
+      "start": 97.284,
+      "end": 97.712
+    },
+    {
+      "text": "bicarbonato",
+      "start": 97.978,
+      "end": 98.67300000000002
+    },
+    {
+      "text": "agua",
+      "start": 98.95,
+      "end": 99.228
+    },
+    {
+      "text": "botellas",
+      "start": 99.448,
+      "end": 99.89900000000002
+    },
+    {
+      "text": "y",
+      "start": 99.91100000000002,
+      "end": 99.95700000000001
+    },
+    {
+      "text": "cinta",
+      "start": 99.96900000000001,
+      "end": 100.49
+    },
+    {
+      "text": "Con",
+      "start": 101.36,
+      "end": 101.591
+    },
+    {
+      "text": "ayuda",
+      "start": 101.603,
+      "end": 101.86899999999999
+    },
+    {
+      "text": "de",
+      "start": 101.88099999999999,
+      "end": 101.962
+    },
+    {
+      "text": "mi",
+      "start": 101.973,
+      "end": 102.07799999999999
+    },
+    {
+      "text": "familia",
+      "start": 102.08900000000001,
+      "end": 102.448
+    },
+    {
+      "text": "arm\u00e9",
+      "start": 102.46,
+      "end": 102.70299999999999
+    },
+    {
+      "text": "y",
+      "start": 102.71400000000001,
+      "end": 102.772
+    },
+    {
+      "text": "ajust\u00e9",
+      "start": 102.784,
+      "end": 103.14200000000001
+    },
+    {
+      "text": "cada",
+      "start": 103.15400000000001,
+      "end": 103.33900000000001
+    },
+    {
+      "text": "montaje",
+      "start": 103.35100000000001,
+      "end": 103.95299999999999
+    },
+    {
+      "text": "Fui",
+      "start": 106.85,
+      "end": 107.128
+    },
+    {
+      "text": "ajustando",
+      "start": 107.14,
+      "end": 107.649
+    },
+    {
+      "text": "el",
+      "start": 107.66,
+      "end": 107.71799999999999
+    },
+    {
+      "text": "montaje",
+      "start": 107.72999999999999,
+      "end": 108.158
+    },
+    {
+      "text": "entre",
+      "start": 108.17,
+      "end": 108.366
+    },
+    {
+      "text": "una",
+      "start": 108.378,
+      "end": 108.53999999999999
+    },
+    {
+      "text": "prueba",
+      "start": 108.55199999999999,
+      "end": 108.829
+    },
+    {
+      "text": "y",
+      "start": 108.841,
+      "end": 108.899
+    },
+    {
+      "text": "otra",
+      "start": 108.91,
+      "end": 109.304
+    },
+    {
+      "text": "Intento",
+      "start": 115.31000000000002,
+      "end": 115.796
+    },
+    {
+      "text": "uno",
+      "start": 115.808,
+      "end": 116.13200000000002
+    },
+    {
+      "text": "Intento",
+      "start": 120.31,
+      "end": 120.80799999999999
+    },
+    {
+      "text": "dos",
+      "start": 120.81900000000002,
+      "end": 121.24700000000001
+    },
+    {
+      "text": "Intento",
+      "start": 122.90999999999998,
+      "end": 123.40799999999997
+    },
+    {
+      "text": "tres",
+      "start": 123.419,
+      "end": 123.836
+    },
+    {
+      "text": "Intento",
+      "start": 125.51,
+      "end": 126.008
+    },
+    {
+      "text": "cuatro",
+      "start": 126.01900000000002,
+      "end": 126.49400000000001
+    },
+    {
+      "text": "Intento",
+      "start": 130.51,
+      "end": 130.98499999999999
+    },
+    {
+      "text": "cinco",
+      "start": 130.99599999999998,
+      "end": 131.436
+    },
+    {
+      "text": "Intento",
+      "start": 135.51,
+      "end": 135.962
+    },
+    {
+      "text": "seis",
+      "start": 135.973,
+      "end": 136.44799999999998
+    },
+    {
+      "text": "Intento",
+      "start": 140.51,
+      "end": 141.01899999999998
+    },
+    {
+      "text": "siete",
+      "start": 141.03099999999998,
+      "end": 141.41299999999998
+    },
+    {
+      "text": "Intento",
+      "start": 145.51,
+      "end": 146.03099999999995
+    },
+    {
+      "text": "ocho",
+      "start": 146.04199999999997,
+      "end": 146.42399999999998
+    },
+    {
+      "text": "Intento",
+      "start": 150.51,
+      "end": 150.99599999999998
+    },
+    {
+      "text": "nueve",
+      "start": 151.00799999999998,
+      "end": 151.401
+    },
+    {
+      "text": "Intento",
+      "start": 155.51,
+      "end": 155.973
+    },
+    {
+      "text": "diez",
+      "start": 155.985,
+      "end": 156.36700000000002
+    },
+    {
+      "text": "Subi\u00f3",
+      "start": 161.7,
+      "end": 162.198
+    },
+    {
+      "text": "pero",
+      "start": 162.406,
+      "end": 162.591
+    },
+    {
+      "text": "solo",
+      "start": 162.60299999999998,
+      "end": 162.823
+    },
+    {
+      "text": "lleg\u00f3",
+      "start": 162.834,
+      "end": 163.112
+    },
+    {
+      "text": "a",
+      "start": 163.124,
+      "end": 163.158
+    },
+    {
+      "text": "medio",
+      "start": 163.17,
+      "end": 163.42499999999998
+    },
+    {
+      "text": "metro",
+      "start": 163.436,
+      "end": 163.922
+    },
+    {
+      "text": "Para",
+      "start": 169.82,
+      "end": 170.063
+    },
+    {
+      "text": "el",
+      "start": 170.075,
+      "end": 170.14399999999998
+    },
+    {
+      "text": "dise\u00f1o",
+      "start": 170.15599999999998,
+      "end": 170.49099999999999
+    },
+    {
+      "text": "final",
+      "start": 170.503,
+      "end": 170.839
+    },
+    {
+      "text": "le",
+      "start": 171.093,
+      "end": 171.17399999999998
+    },
+    {
+      "text": "a\u00f1ad\u00ed",
+      "start": 171.18599999999998,
+      "end": 171.51
+    },
+    {
+      "text": "aletas",
+      "start": 171.521,
+      "end": 171.915
+    },
+    {
+      "text": "y",
+      "start": 171.927,
+      "end": 171.97299999999998
+    },
+    {
+      "text": "una",
+      "start": 171.98399999999998,
+      "end": 172.123
+    },
+    {
+      "text": "base",
+      "start": 172.135,
+      "end": 172.36599999999999
+    },
+    {
+      "text": "de",
+      "start": 172.378,
+      "end": 172.447
+    },
+    {
+      "text": "apoyo",
+      "start": 172.45899999999997,
+      "end": 172.968
+    },
+    {
+      "text": "Puse",
+      "start": 175.82,
+      "end": 176.08599999999998
+    },
+    {
+      "text": "las",
+      "start": 176.09799999999998,
+      "end": 176.248
+    },
+    {
+      "text": "aletas",
+      "start": 176.26,
+      "end": 176.63
+    },
+    {
+      "text": "en",
+      "start": 176.642,
+      "end": 176.72299999999998
+    },
+    {
+      "text": "la",
+      "start": 176.73399999999998,
+      "end": 176.839
+    },
+    {
+      "text": "parte",
+      "start": 176.85,
+      "end": 177.128
+    },
+    {
+      "text": "trasera",
+      "start": 177.14,
+      "end": 177.533
+    },
+    {
+      "text": "para",
+      "start": 177.545,
+      "end": 177.707
+    },
+    {
+      "text": "ayudar",
+      "start": 177.718,
+      "end": 178.01899999999998
+    },
+    {
+      "text": "al",
+      "start": 178.03099999999998,
+      "end": 178.135
+    },
+    {
+      "text": "cohete",
+      "start": 178.147,
+      "end": 178.47099999999998
+    },
+    {
+      "text": "a",
+      "start": 178.482,
+      "end": 178.517
+    },
+    {
+      "text": "mantener",
+      "start": 178.529,
+      "end": 178.945
+    },
+    {
+      "text": "la",
+      "start": 178.957,
+      "end": 179.02599999999998
+    },
+    {
+      "text": "direcci\u00f3n",
+      "start": 179.03799999999998,
+      "end": 179.72099999999998
+    },
+    {
+      "text": "Con",
+      "start": 180.517,
+      "end": 180.749
+    },
+    {
+      "text": "el",
+      "start": 180.76,
+      "end": 180.85299999999998
+    },
+    {
+      "text": "aire",
+      "start": 180.86499999999998,
+      "end": 181.142
+    },
+    {
+      "text": "ayudan",
+      "start": 181.42,
+      "end": 181.744
+    },
+    {
+      "text": "a",
+      "start": 181.756,
+      "end": 181.79
+    },
+    {
+      "text": "corregir",
+      "start": 181.802,
+      "end": 182.23
+    },
+    {
+      "text": "peque\u00f1as",
+      "start": 182.242,
+      "end": 182.635
+    },
+    {
+      "text": "inclinaciones",
+      "start": 182.647,
+      "end": 183.527
+    },
+    {
+      "text": "La",
+      "start": 185.82,
+      "end": 186.028
+    },
+    {
+      "text": "base",
+      "start": 186.04,
+      "end": 186.283
+    },
+    {
+      "text": "verde",
+      "start": 186.295,
+      "end": 186.56099999999998
+    },
+    {
+      "text": "sostiene",
+      "start": 186.572,
+      "end": 186.97799999999998
+    },
+    {
+      "text": "el",
+      "start": 186.98899999999998,
+      "end": 187.07
+    },
+    {
+      "text": "cohete",
+      "start": 187.082,
+      "end": 187.417
+    },
+    {
+      "text": "derecho",
+      "start": 187.429,
+      "end": 187.79899999999998
+    },
+    {
+      "text": "antes",
+      "start": 187.81099999999998,
+      "end": 188.066
+    },
+    {
+      "text": "de",
+      "start": 188.077,
+      "end": 188.135
+    },
+    {
+      "text": "despegar",
+      "start": 188.147,
+      "end": 188.772
+    },
+    {
+      "text": "Su",
+      "start": 189.566,
+      "end": 189.809
+    },
+    {
+      "text": "funci\u00f3n",
+      "start": 189.821,
+      "end": 190.191
+    },
+    {
+      "text": "es",
+      "start": 190.20299999999997,
+      "end": 190.296
+    },
+    {
+      "text": "darle",
+      "start": 190.307,
+      "end": 190.539
+    },
+    {
+      "text": "apoyo",
+      "start": 190.54999999999998,
+      "end": 190.863
+    },
+    {
+      "text": "durante",
+      "start": 190.874,
+      "end": 191.18699999999998
+    },
+    {
+      "text": "la",
+      "start": 191.19799999999998,
+      "end": 191.279
+    },
+    {
+      "text": "preparaci\u00f3n",
+      "start": 191.291,
+      "end": 192.055
+    },
+    {
+      "text": "La",
+      "start": 193.82,
+      "end": 194.028
+    },
+    {
+      "text": "punta",
+      "start": 194.04,
+      "end": 194.295
+    },
+    {
+      "text": "c\u00f3nica",
+      "start": 194.30599999999998,
+      "end": 194.619
+    },
+    {
+      "text": "ayuda",
+      "start": 194.63,
+      "end": 194.96599999999998
+    },
+    {
+      "text": "a",
+      "start": 194.97799999999998,
+      "end": 195.035
+    },
+    {
+      "text": "que",
+      "start": 195.047,
+      "end": 195.16299999999998
+    },
+    {
+      "text": "el",
+      "start": 195.17399999999998,
+      "end": 195.255
+    },
+    {
+      "text": "aire",
+      "start": 195.267,
+      "end": 195.475
+    },
+    {
+      "text": "pase",
+      "start": 195.487,
+      "end": 195.74099999999999
+    },
+    {
+      "text": "alrededor",
+      "start": 195.753,
+      "end": 196.158
+    },
+    {
+      "text": "del",
+      "start": 196.17,
+      "end": 196.297
+    },
+    {
+      "text": "cohete",
+      "start": 196.309,
+      "end": 196.63299999999998
+    },
+    {
+      "text": "con",
+      "start": 196.644,
+      "end": 196.81799999999998
+    },
+    {
+      "text": "menos",
+      "start": 196.82899999999998,
+      "end": 197.06099999999998
+    },
+    {
+      "text": "resistencia",
+      "start": 197.072,
+      "end": 197.68599999999998
+    },
+    {
+      "text": "que",
+      "start": 197.697,
+      "end": 197.802
+    },
+    {
+      "text": "un",
+      "start": 197.813,
+      "end": 197.941
+    },
+    {
+      "text": "frente",
+      "start": 197.952,
+      "end": 198.24099999999999
+    },
+    {
+      "text": "plano",
+      "start": 198.253,
+      "end": 198.71599999999998
+    },
+    {
+      "text": "Tambi\u00e9n",
+      "start": 201.82,
+      "end": 202.202
+    },
+    {
+      "text": "sujet\u00e9",
+      "start": 202.213,
+      "end": 202.57199999999997
+    },
+    {
+      "text": "las",
+      "start": 202.58399999999997,
+      "end": 202.75799999999998
+    },
+    {
+      "text": "piezas",
+      "start": 202.76899999999998,
+      "end": 203.07
+    },
+    {
+      "text": "con",
+      "start": 203.082,
+      "end": 203.267
+    },
+    {
+      "text": "cinta",
+      "start": 203.278,
+      "end": 203.56799999999998
+    },
+    {
+      "text": "para",
+      "start": 203.57899999999998,
+      "end": 203.753
+    },
+    {
+      "text": "mantener",
+      "start": 203.76399999999998,
+      "end": 204.135
+    },
+    {
+      "text": "el",
+      "start": 204.146,
+      "end": 204.21599999999998
+    },
+    {
+      "text": "conjunto",
+      "start": 204.22699999999998,
+      "end": 204.67899999999997
+    },
+    {
+      "text": "unido",
+      "start": 204.69,
+      "end": 205.165
+    },
+    {
+      "text": "Con",
+      "start": 205.95999999999998,
+      "end": 206.17999999999998
+    },
+    {
+      "text": "estas",
+      "start": 206.19099999999997,
+      "end": 206.469
+    },
+    {
+      "text": "mejoras",
+      "start": 206.481,
+      "end": 206.88599999999997
+    },
+    {
+      "text": "prepar\u00e9",
+      "start": 206.897,
+      "end": 207.23299999999998
+    },
+    {
+      "text": "la",
+      "start": 207.24499999999998,
+      "end": 207.35999999999999
+    },
+    {
+      "text": "prueba",
+      "start": 207.37199999999999,
+      "end": 207.62599999999998
+    },
+    {
+      "text": "final",
+      "start": 207.63799999999998,
+      "end": 208.159
+    },
+    {
+      "text": "El",
+      "start": 209.82,
+      "end": 210.017
+    },
+    {
+      "text": "gas",
+      "start": 210.028,
+      "end": 210.202
+    },
+    {
+      "text": "aumenta",
+      "start": 210.214,
+      "end": 210.584
+    },
+    {
+      "text": "la",
+      "start": 210.596,
+      "end": 210.688
+    },
+    {
+      "text": "presi\u00f3n",
+      "start": 210.7,
+      "end": 211.035
+    },
+    {
+      "text": "dentro",
+      "start": 211.047,
+      "end": 211.302
+    },
+    {
+      "text": "de",
+      "start": 211.313,
+      "end": 211.38299999999998
+    },
+    {
+      "text": "la",
+      "start": 211.39399999999998,
+      "end": 211.464
+    },
+    {
+      "text": "botella",
+      "start": 211.475,
+      "end": 212.03099999999998
+    },
+    {
+      "text": "Al",
+      "start": 212.82799999999997,
+      "end": 213.01299999999998
+    },
+    {
+      "text": "expulsar",
+      "start": 213.024,
+      "end": 213.545
+    },
+    {
+      "text": "l\u00edquido",
+      "start": 213.557,
+      "end": 213.86899999999997
+    },
+    {
+      "text": "hacia",
+      "start": 213.88099999999997,
+      "end": 214.07799999999997
+    },
+    {
+      "text": "abajo",
+      "start": 214.089,
+      "end": 214.49399999999997
+    },
+    {
+      "text": "el",
+      "start": 214.76,
+      "end": 214.87599999999998
+    },
+    {
+      "text": "cohete",
+      "start": 214.88799999999998,
+      "end": 215.2
+    },
+    {
+      "text": "recibe",
+      "start": 215.212,
+      "end": 215.571
+    },
+    {
+      "text": "un",
+      "start": 215.582,
+      "end": 215.68599999999998
+    },
+    {
+      "text": "empuje",
+      "start": 215.69799999999998,
+      "end": 216.07999999999998
+    },
+    {
+      "text": "hacia",
+      "start": 216.09099999999998,
+      "end": 216.31099999999998
+    },
+    {
+      "text": "arriba",
+      "start": 216.32299999999998,
+      "end": 216.635
+    },
+    {
+      "text": "y",
+      "start": 216.647,
+      "end": 216.69299999999998
+    },
+    {
+      "text": "gana",
+      "start": 216.70499999999998,
+      "end": 216.94799999999998
+    },
+    {
+      "text": "energ\u00eda",
+      "start": 216.959,
+      "end": 217.36499999999998
+    },
+    {
+      "text": "cin\u00e9tica",
+      "start": 217.37599999999998,
+      "end": 218.059
+    },
+    {
+      "text": "Para",
+      "start": 219.82,
+      "end": 220.052
+    },
+    {
+      "text": "calcular",
+      "start": 220.063,
+      "end": 220.48
+    },
+    {
+      "text": "la",
+      "start": 220.49099999999999,
+      "end": 220.57199999999997
+    },
+    {
+      "text": "subida",
+      "start": 220.58399999999997,
+      "end": 220.908
+    },
+    {
+      "text": "despu\u00e9s",
+      "start": 220.92,
+      "end": 221.278
+    },
+    {
+      "text": "del",
+      "start": 221.29,
+      "end": 221.39399999999998
+    },
+    {
+      "text": "impulso",
+      "start": 221.40599999999998,
+      "end": 221.85699999999997
+    },
+    {
+      "text": "uso",
+      "start": 221.86899999999997,
+      "end": 222.065
+    },
+    {
+      "text": "la",
+      "start": 222.077,
+      "end": 222.146
+    },
+    {
+      "text": "velocidad",
+      "start": 222.158,
+      "end": 222.575
+    },
+    {
+      "text": "vertical",
+      "start": 222.58599999999998,
+      "end": 223.23399999999998
+    },
+    {
+      "text": "Si",
+      "start": 224.029,
+      "end": 224.284
+    },
+    {
+      "text": "fuera",
+      "start": 224.295,
+      "end": 224.504
+    },
+    {
+      "text": "diez",
+      "start": 224.515,
+      "end": 224.73499999999999
+    },
+    {
+      "text": "metros",
+      "start": 224.74699999999999,
+      "end": 225.05899999999997
+    },
+    {
+      "text": "por",
+      "start": 225.07099999999997,
+      "end": 225.22099999999998
+    },
+    {
+      "text": "segundo",
+      "start": 225.23299999999998,
+      "end": 225.673
+    },
+    {
+      "text": "el",
+      "start": 225.89299999999997,
+      "end": 226.03199999999998
+    },
+    {
+      "text": "modelo",
+      "start": 226.04299999999998,
+      "end": 226.344
+    },
+    {
+      "text": "ideal",
+      "start": 226.356,
+      "end": 226.66799999999998
+    },
+    {
+      "text": "dar\u00eda",
+      "start": 226.67999999999998,
+      "end": 226.957
+    },
+    {
+      "text": "unos",
+      "start": 226.969,
+      "end": 227.212
+    },
+    {
+      "text": "cinco",
+      "start": 227.224,
+      "end": 227.51299999999998
+    },
+    {
+      "text": "coma",
+      "start": 227.52499999999998,
+      "end": 227.75599999999997
+    },
+    {
+      "text": "uno",
+      "start": 227.76799999999997,
+      "end": 227.95299999999997
+    },
+    {
+      "text": "metros",
+      "start": 227.964,
+      "end": 228.29999999999998
+    },
+    {
+      "text": "adicionales",
+      "start": 228.31199999999998,
+      "end": 229.099
+    },
+    {
+      "text": "Es",
+      "start": 229.89499999999998,
+      "end": 230.11499999999998
+    },
+    {
+      "text": "un",
+      "start": 230.12699999999998,
+      "end": 230.231
+    },
+    {
+      "text": "ejemplo",
+      "start": 230.243,
+      "end": 230.63599999999997
+    },
+    {
+      "text": "sin",
+      "start": 230.64799999999997,
+      "end": 230.82099999999997
+    },
+    {
+      "text": "resistencia",
+      "start": 230.83299999999997,
+      "end": 231.41199999999998
+    },
+    {
+      "text": "del",
+      "start": 231.423,
+      "end": 231.551
+    },
+    {
+      "text": "aire",
+      "start": 231.56199999999998,
+      "end": 231.81699999999998
+    },
+    {
+      "text": "no",
+      "start": 232.106,
+      "end": 232.19899999999998
+    },
+    {
+      "text": "la",
+      "start": 232.20999999999998,
+      "end": 232.291
+    },
+    {
+      "text": "altura",
+      "start": 232.303,
+      "end": 232.59199999999998
+    },
+    {
+      "text": "medida",
+      "start": 232.60399999999998,
+      "end": 232.90499999999997
+    },
+    {
+      "text": "de",
+      "start": 232.916,
+      "end": 232.99699999999999
+    },
+    {
+      "text": "mi",
+      "start": 233.009,
+      "end": 233.08999999999997
+    },
+    {
+      "text": "vuelo",
+      "start": 233.10199999999998,
+      "end": 233.52999999999997
+    },
+    {
+      "text": "This",
+      "start": 237.9,
+      "end": 238.126
+    },
+    {
+      "text": "is",
+      "start": 238.138,
+      "end": 238.245
+    },
+    {
+      "text": "my",
+      "start": 238.269,
+      "end": 238.412
+    },
+    {
+      "text": "final",
+      "start": 238.435,
+      "end": 238.804
+    },
+    {
+      "text": "test",
+      "start": 238.816,
+      "end": 239.162
+    },
+    {
+      "text": "with",
+      "start": 239.185,
+      "end": 239.292
+    },
+    {
+      "text": "the",
+      "start": 239.316,
+      "end": 239.423
+    },
+    {
+      "text": "finished",
+      "start": 239.447,
+      "end": 239.828
+    },
+    {
+      "text": "rocket",
+      "start": 239.852,
+      "end": 240.304
+    },
+    {
+      "text": "There",
+      "start": 245.05,
+      "end": 245.288
+    },
+    {
+      "text": "it",
+      "start": 245.312,
+      "end": 245.395
+    },
+    {
+      "text": "goes",
+      "start": 245.419,
+      "end": 245.919
+    },
+    {
+      "text": "I",
+      "start": 246.75,
+      "end": 246.904
+    },
+    {
+      "text": "estimated",
+      "start": 246.928,
+      "end": 247.464
+    },
+    {
+      "text": "about",
+      "start": 247.476,
+      "end": 247.69
+    },
+    {
+      "text": "one",
+      "start": 247.714,
+      "end": 247.904
+    },
+    {
+      "text": "metre",
+      "start": 247.928,
+      "end": 248.214
+    },
+    {
+      "text": "still",
+      "start": 248.416,
+      "end": 248.654
+    },
+    {
+      "text": "below",
+      "start": 248.666,
+      "end": 248.892
+    },
+    {
+      "text": "my",
+      "start": 248.904,
+      "end": 249.023
+    },
+    {
+      "text": "five",
+      "start": 249.047,
+      "end": 249.333
+    },
+    {
+      "text": "metre",
+      "start": 249.345,
+      "end": 249.595
+    },
+    {
+      "text": "goal",
+      "start": 249.619,
+      "end": 249.916
+    },
+    {
+      "text": "My",
+      "start": 253.75,
+      "end": 253.904
+    },
+    {
+      "text": "first",
+      "start": 253.928,
+      "end": 254.226
+    },
+    {
+      "text": "version",
+      "start": 254.238,
+      "end": 254.571
+    },
+    {
+      "text": "reached",
+      "start": 254.595,
+      "end": 254.821
+    },
+    {
+      "text": "about",
+      "start": 254.845,
+      "end": 255.059
+    },
+    {
+      "text": "two",
+      "start": 255.071,
+      "end": 255.238
+    },
+    {
+      "text": "metres",
+      "start": 255.25,
+      "end": 255.631
+    },
+    {
+      "text": "the",
+      "start": 255.773,
+      "end": 255.881
+    },
+    {
+      "text": "larger",
+      "start": 255.904,
+      "end": 256.262
+    },
+    {
+      "text": "bottle",
+      "start": 256.27299999999997,
+      "end": 256.57099999999997
+    },
+    {
+      "text": "half",
+      "start": 256.59499999999997,
+      "end": 256.77299999999997
+    },
+    {
+      "text": "a",
+      "start": 256.78499999999997,
+      "end": 256.84499999999997
+    },
+    {
+      "text": "metre",
+      "start": 256.86899999999997,
+      "end": 257.178
+    },
+    {
+      "text": "and",
+      "start": 257.35699999999997,
+      "end": 257.428
+    },
+    {
+      "text": "the",
+      "start": 257.452,
+      "end": 257.54699999999997
+    },
+    {
+      "text": "finished",
+      "start": 257.57099999999997,
+      "end": 257.916
+    },
+    {
+      "text": "design",
+      "start": 257.94,
+      "end": 258.30899999999997
+    },
+    {
+      "text": "one",
+      "start": 258.32099999999997,
+      "end": 258.488
+    },
+    {
+      "text": "metre",
+      "start": 258.512,
+      "end": 258.904
+    },
+    {
+      "text": "That",
+      "start": 259.747,
+      "end": 259.926
+    },
+    {
+      "text": "is",
+      "start": 259.95,
+      "end": 260.05699999999996
+    },
+    {
+      "text": "forty",
+      "start": 260.06899999999996,
+      "end": 260.462
+    },
+    {
+      "text": "ten",
+      "start": 260.56899999999996,
+      "end": 260.878
+    },
+    {
+      "text": "and",
+      "start": 260.985,
+      "end": 261.06899999999996
+    },
+    {
+      "text": "twenty",
+      "start": 261.08099999999996,
+      "end": 261.378
+    },
+    {
+      "text": "percent",
+      "start": 261.402,
+      "end": 261.77099999999996
+    },
+    {
+      "text": "of",
+      "start": 261.783,
+      "end": 261.854
+    },
+    {
+      "text": "the",
+      "start": 261.878,
+      "end": 261.962
+    },
+    {
+      "text": "goal",
+      "start": 261.973,
+      "end": 262.342
+    },
+    {
+      "text": "The",
+      "start": 263.176,
+      "end": 263.31899999999996
+    },
+    {
+      "text": "first",
+      "start": 263.342,
+      "end": 263.64
+    },
+    {
+      "text": "version",
+      "start": 263.652,
+      "end": 264.02099999999996
+    },
+    {
+      "text": "went",
+      "start": 264.04499999999996,
+      "end": 264.223
+    },
+    {
+      "text": "highest",
+      "start": 264.247,
+      "end": 264.79499999999996
+    },
+    {
+      "text": "For",
+      "start": 269.75,
+      "end": 269.94
+    },
+    {
+      "text": "an",
+      "start": 269.964,
+      "end": 270.02299999999997
+    },
+    {
+      "text": "estimate",
+      "start": 270.04699999999997,
+      "end": 270.476
+    },
+    {
+      "text": "I",
+      "start": 270.678,
+      "end": 270.726
+    },
+    {
+      "text": "used",
+      "start": 270.75,
+      "end": 271.0
+    },
+    {
+      "text": "a",
+      "start": 271.02299999999997,
+      "end": 271.08299999999997
+    },
+    {
+      "text": "four",
+      "start": 271.10699999999997,
+      "end": 271.36899999999997
+    },
+    {
+      "text": "hundred",
+      "start": 271.381,
+      "end": 271.666
+    },
+    {
+      "text": "millilitre",
+      "start": 271.678,
+      "end": 272.178
+    },
+    {
+      "text": "bottle",
+      "start": 272.19,
+      "end": 272.51099999999997
+    },
+    {
+      "text": "as",
+      "start": 272.52299999999997,
+      "end": 272.642
+    },
+    {
+      "text": "the",
+      "start": 272.666,
+      "end": 272.762
+    },
+    {
+      "text": "starting",
+      "start": 272.77299999999997,
+      "end": 273.154
+    },
+    {
+      "text": "point",
+      "start": 273.178,
+      "end": 273.52299999999997
+    },
+    {
+      "text": "A",
+      "start": 274.354,
+      "end": 274.485
+    },
+    {
+      "text": "quarter",
+      "start": 274.497,
+      "end": 274.854
+    },
+    {
+      "text": "full",
+      "start": 274.878,
+      "end": 275.188
+    },
+    {
+      "text": "gives",
+      "start": 275.212,
+      "end": 275.438
+    },
+    {
+      "text": "about",
+      "start": 275.462,
+      "end": 275.7
+    },
+    {
+      "text": "one",
+      "start": 275.723,
+      "end": 275.938
+    },
+    {
+      "text": "hundred",
+      "start": 275.962,
+      "end": 276.29499999999996
+    },
+    {
+      "text": "millilitres",
+      "start": 276.31899999999996,
+      "end": 276.95
+    },
+    {
+      "text": "of",
+      "start": 276.973,
+      "end": 277.05699999999996
+    },
+    {
+      "text": "vinegar",
+      "start": 277.08099999999996,
+      "end": 277.592
+    },
+    {
+      "text": "Half",
+      "start": 278.426,
+      "end": 278.7
+    },
+    {
+      "text": "of",
+      "start": 278.723,
+      "end": 278.79499999999996
+    },
+    {
+      "text": "a",
+      "start": 278.80699999999996,
+      "end": 278.866
+    },
+    {
+      "text": "fifty",
+      "start": 278.89,
+      "end": 279.211
+    },
+    {
+      "text": "gram",
+      "start": 279.223,
+      "end": 279.509
+    },
+    {
+      "text": "box",
+      "start": 279.533,
+      "end": 279.854
+    },
+    {
+      "text": "gives",
+      "start": 279.878,
+      "end": 280.06899999999996
+    },
+    {
+      "text": "twenty",
+      "start": 280.08099999999996,
+      "end": 280.366
+    },
+    {
+      "text": "five",
+      "start": 280.39,
+      "end": 280.64
+    },
+    {
+      "text": "grams",
+      "start": 280.664,
+      "end": 281.009
+    },
+    {
+      "text": "of",
+      "start": 281.033,
+      "end": 281.116
+    },
+    {
+      "text": "baking",
+      "start": 281.14,
+      "end": 281.473
+    },
+    {
+      "text": "soda",
+      "start": 281.497,
+      "end": 281.902
+    },
+    {
+      "text": "The",
+      "start": 285.75,
+      "end": 285.881
+    },
+    {
+      "text": "fins",
+      "start": 285.904,
+      "end": 286.166
+    },
+    {
+      "text": "help",
+      "start": 286.19,
+      "end": 286.381
+    },
+    {
+      "text": "direction",
+      "start": 286.392,
+      "end": 286.85699999999997
+    },
+    {
+      "text": "but",
+      "start": 287.09499999999997,
+      "end": 287.214
+    },
+    {
+      "text": "the",
+      "start": 287.238,
+      "end": 287.34499999999997
+    },
+    {
+      "text": "fins",
+      "start": 287.35699999999997,
+      "end": 287.642
+    },
+    {
+      "text": "and",
+      "start": 287.654,
+      "end": 287.738
+    },
+    {
+      "text": "tape",
+      "start": 287.762,
+      "end": 288.0
+    },
+    {
+      "text": "also",
+      "start": 288.012,
+      "end": 288.29699999999997
+    },
+    {
+      "text": "add",
+      "start": 288.32099999999997,
+      "end": 288.452
+    },
+    {
+      "text": "weight",
+      "start": 288.476,
+      "end": 288.79699999999997
+    },
+    {
+      "text": "A",
+      "start": 289.616,
+      "end": 289.747
+    },
+    {
+      "text": "larger",
+      "start": 289.77099999999996,
+      "end": 290.164
+    },
+    {
+      "text": "bottle",
+      "start": 290.176,
+      "end": 290.497
+    },
+    {
+      "text": "needs",
+      "start": 290.52099999999996,
+      "end": 290.735
+    },
+    {
+      "text": "more",
+      "start": 290.747,
+      "end": 290.95
+    },
+    {
+      "text": "gas",
+      "start": 290.973,
+      "end": 291.283
+    },
+    {
+      "text": "for",
+      "start": 291.30699999999996,
+      "end": 291.426
+    },
+    {
+      "text": "the",
+      "start": 291.438,
+      "end": 291.533
+    },
+    {
+      "text": "same",
+      "start": 291.54499999999996,
+      "end": 291.80699999999996
+    },
+    {
+      "text": "pressure",
+      "start": 291.81899999999996,
+      "end": 292.164
+    },
+    {
+      "text": "increase",
+      "start": 292.188,
+      "end": 292.7
+    },
+    {
+      "text": "Leaks",
+      "start": 293.52099999999996,
+      "end": 293.89
+    },
+    {
+      "text": "tilt",
+      "start": 294.04499999999996,
+      "end": 294.29499999999996
+    },
+    {
+      "text": "and",
+      "start": 294.31899999999996,
+      "end": 294.414
+    },
+    {
+      "text": "friction",
+      "start": 294.438,
+      "end": 294.81899999999996
+    },
+    {
+      "text": "with",
+      "start": 294.842,
+      "end": 294.961
+    },
+    {
+      "text": "the",
+      "start": 294.985,
+      "end": 295.06899999999996
+    },
+    {
+      "text": "support",
+      "start": 295.092,
+      "end": 295.485
+    },
+    {
+      "text": "could",
+      "start": 295.509,
+      "end": 295.652
+    },
+    {
+      "text": "also",
+      "start": 295.676,
+      "end": 295.95
+    },
+    {
+      "text": "reduce",
+      "start": 295.973,
+      "end": 296.29499999999996
+    },
+    {
+      "text": "the",
+      "start": 296.30699999999996,
+      "end": 296.402
+    },
+    {
+      "text": "flight",
+      "start": 296.414,
+      "end": 296.80699999999996
+    },
+    {
+      "text": "The",
+      "start": 299.55,
+      "end": 299.669
+    },
+    {
+      "text": "mixture",
+      "start": 299.681,
+      "end": 300.073
+    },
+    {
+      "text": "starts",
+      "start": 300.097,
+      "end": 300.419
+    },
+    {
+      "text": "near",
+      "start": 300.431,
+      "end": 300.609
+    },
+    {
+      "text": "one",
+      "start": 300.633,
+      "end": 300.847
+    },
+    {
+      "text": "hundred",
+      "start": 300.871,
+      "end": 301.181
+    },
+    {
+      "text": "twenty",
+      "start": 301.204,
+      "end": 301.478
+    },
+    {
+      "text": "five",
+      "start": 301.502,
+      "end": 301.764
+    },
+    {
+      "text": "grams",
+      "start": 301.776,
+      "end": 302.3
+    },
+    {
+      "text": "Adding",
+      "start": 303.142,
+      "end": 303.476
+    },
+    {
+      "text": "an",
+      "start": 303.5,
+      "end": 303.571
+    },
+    {
+      "text": "assumed",
+      "start": 303.59499999999997,
+      "end": 303.928
+    },
+    {
+      "text": "sixty",
+      "start": 303.952,
+      "end": 304.34499999999997
+    },
+    {
+      "text": "gram",
+      "start": 304.35699999999997,
+      "end": 304.60699999999997
+    },
+    {
+      "text": "dry",
+      "start": 304.631,
+      "end": 304.85699999999997
+    },
+    {
+      "text": "rocket",
+      "start": 304.881,
+      "end": 305.25
+    },
+    {
+      "text": "gives",
+      "start": 305.273,
+      "end": 305.476
+    },
+    {
+      "text": "about",
+      "start": 305.488,
+      "end": 305.714
+    },
+    {
+      "text": "one",
+      "start": 305.738,
+      "end": 305.916
+    },
+    {
+      "text": "hundred",
+      "start": 305.94,
+      "end": 306.25
+    },
+    {
+      "text": "eighty",
+      "start": 306.273,
+      "end": 306.464
+    },
+    {
+      "text": "five",
+      "start": 306.488,
+      "end": 306.726
+    },
+    {
+      "text": "grams",
+      "start": 306.75,
+      "end": 307.09499999999997
+    },
+    {
+      "text": "before",
+      "start": 307.10699999999997,
+      "end": 307.416
+    },
+    {
+      "text": "release",
+      "start": 307.428,
+      "end": 307.928
+    },
+    {
+      "text": "I",
+      "start": 309.75,
+      "end": 309.892
+    },
+    {
+      "text": "did",
+      "start": 309.916,
+      "end": 310.09499999999997
+    },
+    {
+      "text": "not",
+      "start": 310.11899999999997,
+      "end": 310.33299999999997
+    },
+    {
+      "text": "reach",
+      "start": 310.34499999999997,
+      "end": 310.52299999999997
+    },
+    {
+      "text": "five",
+      "start": 310.54699999999997,
+      "end": 310.82099999999997
+    },
+    {
+      "text": "metres",
+      "start": 310.83299999999997,
+      "end": 311.29699999999997
+    },
+    {
+      "text": "I",
+      "start": 312.128,
+      "end": 312.271
+    },
+    {
+      "text": "would",
+      "start": 312.28299999999996,
+      "end": 312.402
+    },
+    {
+      "text": "start",
+      "start": 312.426,
+      "end": 312.688
+    },
+    {
+      "text": "with",
+      "start": 312.712,
+      "end": 312.842
+    },
+    {
+      "text": "the",
+      "start": 312.866,
+      "end": 312.962
+    },
+    {
+      "text": "lighter",
+      "start": 312.985,
+      "end": 313.271
+    },
+    {
+      "text": "version",
+      "start": 313.29499999999996,
+      "end": 313.664
+    },
+    {
+      "text": "weigh",
+      "start": 313.866,
+      "end": 314.02099999999996
+    },
+    {
+      "text": "each",
+      "start": 314.04499999999996,
+      "end": 314.223
+    },
+    {
+      "text": "part",
+      "start": 314.247,
+      "end": 314.497
+    },
+    {
+      "text": "check",
+      "start": 314.64,
+      "end": 314.83099999999996
+    },
+    {
+      "text": "the",
+      "start": 314.854,
+      "end": 314.95
+    },
+    {
+      "text": "seal",
+      "start": 314.962,
+      "end": 315.29499999999996
+    },
+    {
+      "text": "and",
+      "start": 315.473,
+      "end": 315.56899999999996
+    },
+    {
+      "text": "repeat",
+      "start": 315.592,
+      "end": 315.866
+    },
+    {
+      "text": "the",
+      "start": 315.89,
+      "end": 315.997
+    },
+    {
+      "text": "test",
+      "start": 316.009,
+      "end": 316.30699999999996
+    },
+    {
+      "text": "while",
+      "start": 316.33099999999996,
+      "end": 316.462
+    },
+    {
+      "text": "changing",
+      "start": 316.473,
+      "end": 316.842
+    },
+    {
+      "text": "one",
+      "start": 316.866,
+      "end": 317.04499999999996
+    },
+    {
+      "text": "thing",
+      "start": 317.06899999999996,
+      "end": 317.27099999999996
+    },
+    {
+      "text": "at",
+      "start": 317.283,
+      "end": 317.354
+    },
+    {
+      "text": "a",
+      "start": 317.366,
+      "end": 317.414
+    },
+    {
+      "text": "time",
+      "start": 317.438,
+      "end": 317.783
+    },
+    {
+      "text": "A",
+      "start": 318.628,
+      "end": 318.759
+    },
+    {
+      "text": "more",
+      "start": 318.77099999999996,
+      "end": 318.95
+    },
+    {
+      "text": "finished",
+      "start": 318.973,
+      "end": 319.31899999999996
+    },
+    {
+      "text": "appearance",
+      "start": 319.342,
+      "end": 319.79499999999996
+    },
+    {
+      "text": "did",
+      "start": 319.81899999999996,
+      "end": 319.973
+    },
+    {
+      "text": "not",
+      "start": 319.997,
+      "end": 320.176
+    },
+    {
+      "text": "mean",
+      "start": 320.188,
+      "end": 320.342
+    },
+    {
+      "text": "a",
+      "start": 320.366,
+      "end": 320.414
+    },
+    {
+      "text": "higher",
+      "start": 320.426,
+      "end": 320.723
+    },
+    {
+      "text": "flight",
+      "start": 320.747,
+      "end": 321.152
+    }
+  ],
+  "voiceEvents": [
+    {
+      "scene": "opening",
+      "line": 0,
+      "id": "opening-complete",
+      "start": 0.22,
+      "end": 4.909,
+      "meaning": "I am Santiago Cundumi Solis and this is my STEAM project: Water Rocket Competition.",
+      "sourceStart": 0.05,
+      "sourceEnd": 4.739
+    },
+    {
+      "line": 1,
+      "scene": "chemistry",
+      "sourceStart": 4.708,
+      "sourceEnd": 8.225999999999999,
+      "start": 7.8,
+      "end": 11.318
+    },
+    {
+      "line": 2,
+      "scene": "chemistry",
+      "sourceStart": 9.277999999999999,
+      "sourceEnd": 13.097,
+      "start": 13.0,
+      "end": 16.819
+    },
+    {
+      "scene": "chemistry",
+      "line": 3,
+      "id": "chemistry-seal",
+      "start": 18.5,
+      "end": 22.182,
+      "meaning": "If the gas escapes too early, less pressure remains for launch.",
+      "sourceStart": 0.05,
+      "sourceEnd": 3.7319999999999998
+    },
+    {
+      "line": 4,
+      "scene": "physics",
+      "sourceStart": 18.112000000000002,
+      "sourceEnd": 22.209,
+      "start": 25.8,
+      "end": 29.897000000000002
+    },
+    {
+      "line": 5,
+      "scene": "physics",
+      "sourceStart": 23.258000000000003,
+      "sourceEnd": 27.228,
+      "start": 31.1,
+      "end": 35.07
+    },
+    {
+      "line": 6,
+      "scene": "physics",
+      "sourceStart": 28.288,
+      "sourceEnd": 32.188,
+      "start": 36.3,
+      "end": 40.199999999999996
+    },
+    {
+      "line": 7,
+      "scene": "prototype",
+      "sourceStart": 33.244,
+      "sourceEnd": 37.040000000000006,
+      "start": 43.7,
+      "end": 47.496
+    },
+    {
+      "scene": "prototype",
+      "line": 8,
+      "id": "prototype-recording",
+      "start": 48.4,
+      "end": 51.687999999999995,
+      "meaning": "I assembled the setup, tested it in the patio and recorded the attempts.",
+      "sourceStart": 0.048,
+      "sourceEnd": 3.336
+    },
+    {
+      "line": 9,
+      "scene": "prototype",
+      "sourceStart": 42.628,
+      "sourceEnd": 44.931000000000004,
+      "start": 53.3,
+      "end": 55.602999999999994
+    },
+    {
+      "line": 10,
+      "scene": "first-test",
+      "sourceStart": 45.974,
+      "sourceEnd": 48.844,
+      "start": 59.5,
+      "end": 62.37
+    },
+    {
+      "line": 11,
+      "scene": "second-test",
+      "sourceStart": 49.897999999999996,
+      "sourceEnd": 53.914,
+      "start": 65.5,
+      "end": 69.516
+    },
+    {
+      "line": 12,
+      "scene": "first-launch",
+      "sourceStart": 54.974,
+      "sourceEnd": 56.525000000000006,
+      "start": 71.652,
+      "end": 73.203
+    },
+    {
+      "line": 12,
+      "scene": "first-replay",
+      "sourceStart": 56.687,
+      "sourceEnd": 58.538000000000004,
+      "start": 75.865,
+      "end": 77.716
+    },
+    {
+      "scene": "first-result",
+      "line": 29,
+      "id": "measurement-lesson",
+      "start": 78.3,
+      "end": 81.831,
+      "meaning": "I learned that I needed to record quantities, height and flight time.",
+      "sourceStart": 0.048,
+      "sourceEnd": 3.5789999999999997
+    },
+    {
+      "line": 13,
+      "scene": "diagnosis",
+      "sourceStart": 59.594,
+      "sourceEnd": 64.038,
+      "start": 83.6,
+      "end": 88.044
+    },
+    {
+      "line": 14,
+      "scene": "diagnosis",
+      "sourceStart": 65.104,
+      "sourceEnd": 67.985,
+      "start": 89.4,
+      "end": 92.281
+    },
+    {
+      "line": 15,
+      "scene": "rebuild",
+      "sourceStart": 69.05,
+      "sourceEnd": 73.83,
+      "start": 95.8,
+      "end": 100.58
+    },
+    {
+      "line": 16,
+      "scene": "rebuild",
+      "sourceStart": 74.896,
+      "sourceEnd": 77.63900000000001,
+      "start": 101.3,
+      "end": 104.04299999999999
+    },
+    {
+      "scene": "rebuild",
+      "line": 17,
+      "id": "rebuild-adjustments",
+      "start": 106.8,
+      "end": 109.39399999999999,
+      "meaning": "I adjusted the assembly between one test and the next.",
+      "sourceStart": 0.048,
+      "sourceEnd": 2.642
+    },
+    {
+      "line": 18,
+      "scene": "attempt-01",
+      "sourceStart": 82.288,
+      "sourceEnd": 83.26,
+      "start": 115.25,
+      "end": 116.222
+    },
+    {
+      "line": 19,
+      "scene": "attempt-02",
+      "sourceStart": 86.356,
+      "sourceEnd": 87.443,
+      "start": 120.25,
+      "end": 121.337
+    },
+    {
+      "line": 20,
+      "scene": "attempt-03",
+      "sourceStart": 90.182,
+      "sourceEnd": 91.25800000000001,
+      "start": 122.85,
+      "end": 123.92599999999999
+    },
+    {
+      "line": 21,
+      "scene": "attempt-04",
+      "sourceStart": 94.17999999999999,
+      "sourceEnd": 95.31400000000001,
+      "start": 125.45,
+      "end": 126.584
+    },
+    {
+      "line": 22,
+      "scene": "attempt-05",
+      "sourceStart": 98.268,
+      "sourceEnd": 99.34400000000001,
+      "start": 130.45,
+      "end": 131.52599999999998
+    },
+    {
+      "line": 23,
+      "scene": "attempt-06",
+      "sourceStart": 102.575,
+      "sourceEnd": 103.663,
+      "start": 135.45,
+      "end": 136.53799999999998
+    },
+    {
+      "line": 24,
+      "scene": "attempt-07",
+      "sourceStart": 106.672,
+      "sourceEnd": 107.72500000000001,
+      "start": 140.45,
+      "end": 141.503
+    },
+    {
+      "line": 25,
+      "scene": "attempt-08",
+      "sourceStart": 110.86,
+      "sourceEnd": 111.924,
+      "start": 145.45,
+      "end": 146.51399999999998
+    },
+    {
+      "line": 26,
+      "scene": "attempt-09",
+      "sourceStart": 114.928,
+      "sourceEnd": 115.96900000000001,
+      "start": 150.45,
+      "end": 151.49099999999999
+    },
+    {
+      "line": 27,
+      "scene": "attempt-10",
+      "sourceStart": 119.13499999999999,
+      "sourceEnd": 120.14200000000001,
+      "start": 155.45,
+      "end": 156.457
+    },
+    {
+      "id": "second-launch-estimate",
+      "start": 161.65,
+      "end": 164.042,
+      "meaning": "It rose, but only reached approximately half a metre.",
+      "sourceStart": 0.05,
+      "sourceEnd": 2.442
+    },
+    {
+      "id": "design-reveal",
+      "start": 169.75,
+      "end": 173.088,
+      "meaning": "For the final design, I added fins and a supporting base.",
+      "sourceStart": 0.03,
+      "sourceEnd": 3.3680000000000003
+    },
+    {
+      "id": "design-fins",
+      "start": 175.75,
+      "end": 183.647,
+      "meaning": "I put the fins at the rear to help the rocket maintain its direction. With airflow, they help correct small tilts.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 7.925
+    },
+    {
+      "id": "design-base",
+      "start": 185.75,
+      "end": 192.17499999999998,
+      "meaning": "The green base holds the rocket upright before takeoff. Its role is support during preparation.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 6.453
+    },
+    {
+      "id": "design-nose",
+      "start": 193.75,
+      "end": 198.83599999999998,
+      "meaning": "The conical nose helps air flow around the rocket with less resistance than a flat front.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 5.114
+    },
+    {
+      "id": "design-assembly",
+      "start": 201.75,
+      "end": 208.279,
+      "meaning": "I also fastened the pieces with tape to keep the assembly together. With these changes I prepared the final test.",
+      "sourceStart": 0.03,
+      "sourceEnd": 6.559
+    },
+    {
+      "id": "design-science",
+      "start": 209.75,
+      "end": 218.17899999999997,
+      "meaning": "Gas raises the pressure inside the bottle. Expelling liquid downward produces upward thrust and gives the rocket kinetic energy.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 8.456999999999999
+    },
+    {
+      "id": "design-height",
+      "start": 219.75,
+      "end": 233.64999999999998,
+      "meaning": "Estimate additional rise after thrust from vertical velocity. An assumed 10 m/s gives 5.1 m in the ideal model. This ignores drag and is an example, not a measurement of the flight.",
+      "sourceStart": 0.03,
+      "sourceEnd": 13.93
+    },
+    {
+      "id": "final-setup",
+      "start": 237.85,
+      "end": 240.424,
+      "source": "v6-final-setup.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 2.622
+    },
+    {
+      "id": "final-release",
+      "start": 245.0,
+      "end": 250.036,
+      "source": "v6-final-release.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 5.0840000000000005
+    },
+    {
+      "id": "comparison",
+      "start": 253.7,
+      "end": 264.91499999999996,
+      "source": "v6-comparison.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.263
+    },
+    {
+      "id": "quantities",
+      "start": 269.7,
+      "end": 282.022,
+      "source": "v6-quantities.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 12.37
+    },
+    {
+      "id": "design-analysis",
+      "start": 285.7,
+      "end": 296.92699999999996,
+      "source": "v6-design-analysis.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.274999999999999
+    },
+    {
+      "id": "mass-estimate",
+      "start": 299.5,
+      "end": 308.048,
+      "source": "v6-mass-estimate.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 8.596
+    },
+    {
+      "id": "conclusion",
+      "start": 309.7,
+      "end": 321.272,
+      "source": "v6-conclusion.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.62
+    }
+  ],
+  "newDesignStart": 5076,
+  "newDesignFrames": 2040,
+  "pendingFinalLaunchVideo": false,
+  "correctedAudio": true,
+  "resultsStart": 7116,
+  "resultsFrames": 2580,
+  "reportedResults": [
+    {
+      "id": "first",
+      "heightMetres": 2,
+      "goalPercent": 40,
+      "shortfallMetres": 3,
+      "label": "Primera versi\u00f3n"
+    },
+    {
+      "id": "larger",
+      "heightMetres": 0.5,
+      "goalPercent": 10,
+      "shortfallMetres": 4.5,
+      "label": "Botella m\u00e1s grande"
+    },
+    {
+      "id": "final",
+      "heightMetres": 1,
+      "goalPercent": 20,
+      "shortfallMetres": 4,
+      "label": "Dise\u00f1o final"
+    }
+  ],
+  "resultsAudio": true,
+  "finalFootageEvidence": "Upward movement at 382.812 seconds, followed by an unsupported descent. The foreground leg obscures the release mechanism. Height is the student's retrospective estimate, not a calibrated video measurement."
+}

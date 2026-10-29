@@ -1,0 +1,381 @@
+{
+  "duration": 323.2,
+  "peakBeforeMaster": 0.921875,
+  "voiceEventsDoNotOverlap": true,
+  "finalRelease": 244.51199999999994,
+  "commentaryAt": 245.0,
+  "sourceAudioOffsetApplied": 0.063396,
+  "sourceSound": "Single source-aligned track, reduced under speech. Embedded video is muted.",
+  "events": [
+    {
+      "scene": "opening",
+      "line": 0,
+      "id": "opening-complete",
+      "start": 0.22,
+      "end": 4.909,
+      "meaning": "I am Santiago Cundumi Solis and this is my STEAM project: Water Rocket Competition.",
+      "sourceStart": 0.05,
+      "sourceEnd": 4.739
+    },
+    {
+      "line": 1,
+      "scene": "chemistry",
+      "sourceStart": 4.708,
+      "sourceEnd": 8.225999999999999,
+      "start": 7.8,
+      "end": 11.318
+    },
+    {
+      "line": 2,
+      "scene": "chemistry",
+      "sourceStart": 9.277999999999999,
+      "sourceEnd": 13.097,
+      "start": 13.0,
+      "end": 16.819
+    },
+    {
+      "scene": "chemistry",
+      "line": 3,
+      "id": "chemistry-seal",
+      "start": 18.5,
+      "end": 22.182,
+      "meaning": "If the gas escapes too early, less pressure remains for launch.",
+      "sourceStart": 0.05,
+      "sourceEnd": 3.7319999999999998
+    },
+    {
+      "line": 4,
+      "scene": "physics",
+      "sourceStart": 18.112000000000002,
+      "sourceEnd": 22.209,
+      "start": 25.8,
+      "end": 29.897000000000002
+    },
+    {
+      "line": 5,
+      "scene": "physics",
+      "sourceStart": 23.258000000000003,
+      "sourceEnd": 27.228,
+      "start": 31.1,
+      "end": 35.07
+    },
+    {
+      "line": 6,
+      "scene": "physics",
+      "sourceStart": 28.288,
+      "sourceEnd": 32.188,
+      "start": 36.3,
+      "end": 40.199999999999996
+    },
+    {
+      "line": 7,
+      "scene": "prototype",
+      "sourceStart": 33.244,
+      "sourceEnd": 37.040000000000006,
+      "start": 43.7,
+      "end": 47.496
+    },
+    {
+      "scene": "prototype",
+      "line": 8,
+      "id": "prototype-recording",
+      "start": 48.4,
+      "end": 51.687999999999995,
+      "meaning": "I assembled the setup, tested it in the patio and recorded the attempts.",
+      "sourceStart": 0.048,
+      "sourceEnd": 3.336
+    },
+    {
+      "line": 9,
+      "scene": "prototype",
+      "sourceStart": 42.628,
+      "sourceEnd": 44.931000000000004,
+      "start": 53.3,
+      "end": 55.602999999999994
+    },
+    {
+      "line": 10,
+      "scene": "first-test",
+      "sourceStart": 45.974,
+      "sourceEnd": 48.844,
+      "start": 59.5,
+      "end": 62.37
+    },
+    {
+      "line": 11,
+      "scene": "second-test",
+      "sourceStart": 49.897999999999996,
+      "sourceEnd": 53.914,
+      "start": 65.5,
+      "end": 69.516
+    },
+    {
+      "line": 12,
+      "scene": "first-launch",
+      "sourceStart": 54.974,
+      "sourceEnd": 56.525000000000006,
+      "start": 71.652,
+      "end": 73.203
+    },
+    {
+      "line": 12,
+      "scene": "first-replay",
+      "sourceStart": 56.687,
+      "sourceEnd": 58.538000000000004,
+      "start": 75.865,
+      "end": 77.716
+    },
+    {
+      "scene": "first-result",
+      "line": 29,
+      "id": "measurement-lesson",
+      "start": 78.3,
+      "end": 81.831,
+      "meaning": "I learned that I needed to record quantities, height and flight time.",
+      "sourceStart": 0.048,
+      "sourceEnd": 3.5789999999999997
+    },
+    {
+      "line": 13,
+      "scene": "diagnosis",
+      "sourceStart": 59.594,
+      "sourceEnd": 64.038,
+      "start": 83.6,
+      "end": 88.044
+    },
+    {
+      "line": 14,
+      "scene": "diagnosis",
+      "sourceStart": 65.104,
+      "sourceEnd": 67.985,
+      "start": 89.4,
+      "end": 92.281
+    },
+    {
+      "line": 15,
+      "scene": "rebuild",
+      "sourceStart": 69.05,
+      "sourceEnd": 73.83,
+      "start": 95.8,
+      "end": 100.58
+    },
+    {
+      "line": 16,
+      "scene": "rebuild",
+      "sourceStart": 74.896,
+      "sourceEnd": 77.63900000000001,
+      "start": 101.3,
+      "end": 104.04299999999999
+    },
+    {
+      "scene": "rebuild",
+      "line": 17,
+      "id": "rebuild-adjustments",
+      "start": 106.8,
+      "end": 109.39399999999999,
+      "meaning": "I adjusted the assembly between one test and the next.",
+      "sourceStart": 0.048,
+      "sourceEnd": 2.642
+    },
+    {
+      "line": 18,
+      "scene": "attempt-01",
+      "sourceStart": 82.288,
+      "sourceEnd": 83.26,
+      "start": 115.25,
+      "end": 116.222
+    },
+    {
+      "line": 19,
+      "scene": "attempt-02",
+      "sourceStart": 86.356,
+      "sourceEnd": 87.443,
+      "start": 120.25,
+      "end": 121.337
+    },
+    {
+      "line": 20,
+      "scene": "attempt-03",
+      "sourceStart": 90.182,
+      "sourceEnd": 91.25800000000001,
+      "start": 122.85,
+      "end": 123.92599999999999
+    },
+    {
+      "line": 21,
+      "scene": "attempt-04",
+      "sourceStart": 94.17999999999999,
+      "sourceEnd": 95.31400000000001,
+      "start": 125.45,
+      "end": 126.584
+    },
+    {
+      "line": 22,
+      "scene": "attempt-05",
+      "sourceStart": 98.268,
+      "sourceEnd": 99.34400000000001,
+      "start": 130.45,
+      "end": 131.52599999999998
+    },
+    {
+      "line": 23,
+      "scene": "attempt-06",
+      "sourceStart": 102.575,
+      "sourceEnd": 103.663,
+      "start": 135.45,
+      "end": 136.53799999999998
+    },
+    {
+      "line": 24,
+      "scene": "attempt-07",
+      "sourceStart": 106.672,
+      "sourceEnd": 107.72500000000001,
+      "start": 140.45,
+      "end": 141.503
+    },
+    {
+      "line": 25,
+      "scene": "attempt-08",
+      "sourceStart": 110.86,
+      "sourceEnd": 111.924,
+      "start": 145.45,
+      "end": 146.51399999999998
+    },
+    {
+      "line": 26,
+      "scene": "attempt-09",
+      "sourceStart": 114.928,
+      "sourceEnd": 115.96900000000001,
+      "start": 150.45,
+      "end": 151.49099999999999
+    },
+    {
+      "line": 27,
+      "scene": "attempt-10",
+      "sourceStart": 119.13499999999999,
+      "sourceEnd": 120.14200000000001,
+      "start": 155.45,
+      "end": 156.457
+    },
+    {
+      "id": "second-launch-estimate",
+      "start": 161.65,
+      "end": 164.042,
+      "meaning": "It rose, but only reached approximately half a metre.",
+      "sourceStart": 0.05,
+      "sourceEnd": 2.442
+    },
+    {
+      "id": "design-reveal",
+      "start": 169.75,
+      "end": 173.088,
+      "meaning": "For the final design, I added fins and a supporting base.",
+      "sourceStart": 0.03,
+      "sourceEnd": 3.3680000000000003
+    },
+    {
+      "id": "design-fins",
+      "start": 175.75,
+      "end": 183.647,
+      "meaning": "I put the fins at the rear to help the rocket maintain its direction. With airflow, they help correct small tilts.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 7.925
+    },
+    {
+      "id": "design-base",
+      "start": 185.75,
+      "end": 192.17499999999998,
+      "meaning": "The green base holds the rocket upright before takeoff. Its role is support during preparation.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 6.453
+    },
+    {
+      "id": "design-nose",
+      "start": 193.75,
+      "end": 198.83599999999998,
+      "meaning": "The conical nose helps air flow around the rocket with less resistance than a flat front.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 5.114
+    },
+    {
+      "id": "design-assembly",
+      "start": 201.75,
+      "end": 208.279,
+      "meaning": "I also fastened the pieces with tape to keep the assembly together. With these changes I prepared the final test.",
+      "sourceStart": 0.03,
+      "sourceEnd": 6.559
+    },
+    {
+      "id": "design-science",
+      "start": 209.75,
+      "end": 218.17899999999997,
+      "meaning": "Gas raises the pressure inside the bottle. Expelling liquid downward produces upward thrust and gives the rocket kinetic energy.",
+      "sourceStart": 0.027999999999999997,
+      "sourceEnd": 8.456999999999999
+    },
+    {
+      "id": "design-height",
+      "start": 219.75,
+      "end": 233.64999999999998,
+      "meaning": "Estimate additional rise after thrust from vertical velocity. An assumed 10 m/s gives 5.1 m in the ideal model. This ignores drag and is an example, not a measurement of the flight.",
+      "sourceStart": 0.03,
+      "sourceEnd": 13.93
+    },
+    {
+      "id": "final-setup",
+      "start": 237.85,
+      "end": 240.424,
+      "source": "v6-final-setup.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 2.622
+    },
+    {
+      "id": "final-release",
+      "start": 245.0,
+      "end": 250.036,
+      "source": "v6-final-release.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 5.0840000000000005
+    },
+    {
+      "id": "comparison",
+      "start": 253.7,
+      "end": 264.91499999999996,
+      "source": "v6-comparison.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.263
+    },
+    {
+      "id": "quantities",
+      "start": 269.7,
+      "end": 282.022,
+      "source": "v6-quantities.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 12.37
+    },
+    {
+      "id": "design-analysis",
+      "start": 285.7,
+      "end": 296.92699999999996,
+      "source": "v6-design-analysis.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.274999999999999
+    },
+    {
+      "id": "mass-estimate",
+      "start": 299.5,
+      "end": 308.048,
+      "source": "v6-mass-estimate.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 8.596
+    },
+    {
+      "id": "conclusion",
+      "start": 309.7,
+      "end": 321.272,
+      "source": "v6-conclusion.wav",
+      "sourceStart": 0.048,
+      "sourceEnd": 11.62
+    }
+  ]
+}

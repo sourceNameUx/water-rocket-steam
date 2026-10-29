@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react": ["./.typecheck/node_modules/@types/react", "./node_modules/@types/react"],
+      "react/*": ["./.typecheck/node_modules/@types/react/*", "./node_modules/@types/react/*"]
+    }
+  }
+}

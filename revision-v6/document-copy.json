@@ -1,0 +1,30 @@
+{
+  "title": "WATER ROCKET PROJECT",
+  "subtitle": "Results and analysis",
+  "author": "Santiago Cundumi Solis",
+  "pages": [
+    [
+      ["heading", "1. My goal and the results"],
+      ["paragraph", "My goal was for the rocket to reach at least 5 m. I tried a first version, a larger bottle and a finished design with fins, a conical nose and taped joints. These are the approximate heights I remember from the tests."],
+      ["results", ""],
+      ["paragraph", "The first version went highest. I calculated its progress by dividing 2 by 5 and multiplying by 100, which gives 40%. The larger bottle reached 10% and the final design 20%. None reached the goal. The final design rose about 0.5 m more than the larger bottle, but about 1 m less than the first version."],
+      ["paragraph", "The final recording shows the rocket rising at about 6 minutes 23 seconds and then coming down. Its highest point leaves the camera frame, so I use my estimate of 1 m rather than treating the recording as a measured scale."],
+      ["heading", "2. Quantities and starting mass"],
+      ["paragraph", "I used a personal-size Big Cola bottle, filled about one quarter with vinegar, and about half a small box of baking soda. To make a useful calculation, I take a 400 mL bottle and a 50 g box as working assumptions. These sizes are not confirmed from the labels."],
+      ["quantities", ""],
+      ["paragraph", "The vinegar is close to 100 g if I use 1 g per mL, so the ingredients start near 125 g together. With an assumed dry rocket mass of 60 g, the total before release is about 185 g, or 0.185 kg. The green ground support is not part of the flying mass."],
+      ["paragraph", "If the bottle held 400–500 mL and the dry rocket weighed 40–80 g, the loaded estimate would be about 165–230 g, keeping the baking soda at 25 g. This gives a useful range without presenting a guessed mass as a scale reading."]
+    ],
+    [
+      ["heading", "3. What I understand from the tests"],
+      ["paragraph", "The vinegar reacts with the baking soda and produces carbon dioxide. When gas builds up in the closed bottle, pressure increases. As liquid and gas leave through the opening, the rocket is pushed in the opposite direction. This is the action-and-reaction idea I used in the project."],
+      ["paragraph", "A larger bottle did not automatically work better. If it carried more mass, it needed more thrust, and a larger empty space would need more gas for the same pressure increase at the same temperature. I changed several things between versions, so I cannot say that bottle size alone caused the lower flight."],
+      ["paragraph", "I added fins to help keep direction, a conical nose to guide the airflow and tape to hold the parts together. The green support helped position the rocket before release. These parts made the design more complete, but the fins and tape also added mass. Tilt, a gas leak or friction with the support could have reduced the result."],
+      ["paragraph", "Using the 185 g starting estimate, the weight is about 0.185 × 9.81 = 1.8 N. For upward acceleration from rest, vertical thrust must exceed weight and any opposing contact force. This is a reference calculation, not a measurement of thrust, and the rocket becomes lighter as material leaves it."],
+      ["paragraph", "The 5.1 m calculation in the documentary is a separate ideal example. If upward speed were 10 m/s after thrust ended, the extra rise without air resistance would be 10² ÷ (2 × 9.81) ≈ 5.1 m. That assumed speed was not measured, and the example does not replace the 5 m goal or the observed results."],
+      ["heading", "4. My conclusion"],
+      ["paragraph", "I did not reach the goal, but I learned that adding parts or using a bigger bottle does not necessarily make a rocket fly higher. I would start again from the lighter version, weigh the bottle and added parts, check the seal and record the quantities before each test."],
+      ["paragraph", "I would repeat each version several times and change only one thing at a time. A fixed camera with a visible height reference would help me compare the flights. For me, the main improvement is making the next test easier to measure and compare, instead of judging the result only by how finished the rocket looks."]
+    ]
+  ]
+}

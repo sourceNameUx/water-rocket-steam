@@ -1,0 +1,30 @@
+{
+  "design-reveal": {
+    "title": "Mi dise\u00f1o final",
+    "caption": "Cada pieza tiene su funci\u00f3n"
+  },
+  "design-fins": {
+    "title": "Aletas",
+    "caption": "Ayudan a mantener el rumbo"
+  },
+  "design-base": {
+    "title": "Base de apoyo",
+    "caption": "Derecho antes de despegar"
+  },
+  "design-nose": {
+    "title": "Punta c\u00f3nica",
+    "caption": "El aire pasa alrededor"
+  },
+  "design-assembly": {
+    "title": "Todo bien unido",
+    "caption": "Listo para la prueba final"
+  },
+  "design-science": {
+    "title": "De la presi\u00f3n al vuelo",
+    "caption": "Acci\u00f3n y reacci\u00f3n"
+  },
+  "design-height": {
+    "title": "Un c\u00e1lculo de ejemplo",
+    "caption": "Ejemplo te\u00f3rico, no medici\u00f3n"
+  }
+}

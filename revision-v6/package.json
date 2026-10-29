@@ -1,0 +1,26 @@
+{
+  "name": "rocket-documentary-v6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corrected documentary with the confirmed final launch and practical quantity estimates.",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx --port=3103",
+    "typecheck": "tsc --noEmit --project tsconfig.check.json",
+    "review": "node render.mjs --review",
+    "render": "node render.mjs"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/media": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538",
+    "typescript": "7.0.2"
+  }
+}

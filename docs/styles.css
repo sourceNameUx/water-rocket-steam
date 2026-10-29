@@ -685,40 +685,16 @@ details p {
 }
 .conclusion-section {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 0.9fr 1.4fr;
   gap: 10vw;
   background: var(--yellow);
   padding: 76px 7vw;
 }
-.conclusion-section > div:first-child > p {
-  margin-top: 22px;
+.conclusion-section > div > p {
   max-width: 46ch;
 }
-.rubric {
-  align-self: center;
-}
-.rubric h3 {
-  font-size: 30px;
-  margin-bottom: 24px;
-}
-.rubric dl {
-  margin: 0;
-}
-.rubric dl > div {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 12px 0;
-  border-top: 1px solid #ab9537;
-  font-size: 16px;
-}
-.rubric dd {
-  font-weight: 700;
-  margin: 0;
-}
-.rubric > p {
-  font-size: 12px;
-  margin-top: 12px;
+.conclusion-section > div > p + p {
+  margin-top: 22px;
 }
 footer {
   padding: 36px 5vw;
@@ -1055,11 +1031,8 @@ footer p {
   .lesson-grid > div > p {
     font-size: 16px;
   }
-  .conclusion-section > div:first-child > p {
+  .conclusion-section > div > p {
     font-size: 16px;
-  }
-  .rubric {
-    margin-top: 15px;
   }
   footer {
     padding: 30px 24px;

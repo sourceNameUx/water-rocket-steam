@@ -20,7 +20,7 @@ Present the real rocket, its construction, scientific explanation, documentary, 
 
 ## Capabilities and Constraints
 
-The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. The website and standalone report must be Spanish, following Santiago's schoolwork writing profile. The website needs fuller explanatory text and no document-download promotion; the report is a separate submission. The documentary has Spanish chapters and an English results ending, which is labeled on the site. The report requires a proper cover and all 15 original photographs, with no embedded video. No login or backend is needed.
+The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. The website, documentary narration and graphics, captions and standalone report must all be Spanish, following Santiago's schoolwork writing profile. English chat or code conventions do not change the language of project content. The website needs fuller explanatory text, no document-download promotion and no teacher grading-criteria block; the report is a separate submission. The report requires a proper cover and all 15 original photographs, with no embedded video. No login or backend is needed.
 
 ## Brand Commitments
 

@@ -10,17 +10,17 @@ Santiago Cundumi Solis's STEAM water-rocket project: a documentary, interactive 
 - [Results report — PDF](docs/assets/rocket-report.pdf)
 - [Editable report — Word](docs/assets/rocket-report.docx)
 
-**Language:** The website and both report formats are in Spanish, following Santiago's correction and writing profile. The documentary retains its original Spanish chapters and English results ending; the website labels that mixed-language audio explicitly.
+**Language:** The website, documentary narration and graphics, subtitles, poster and both report formats are in Spanish. Revision eight replaces the entire 86-second results ending with Spanish narration and graphics, following Santiago's correction and writing profile.
 
 The website explains the construction stages, reaction and thrust, comparison of results, mass assumptions and next-test improvements directly on the page. Its former report-download section has been replaced with a conclusion; the report remains a separate school submission, accessible through the repository links above.
 
 ## Results at a glance
 
-| Version | Estimated height | Share of the 5 m goal |
-| --- | ---: | ---: |
-| First version | 2 m | 40% |
-| Larger bottle | 0.5 m | 10% |
-| Final design | 1 m | 20% |
+| Version       | Estimated height | Share of the 5 m goal |
+| ------------- | ---------------: | --------------------: |
+| First version |              2 m |                   40% |
+| Larger bottle |            0.5 m |                   10% |
+| Final design  |              1 m |                   20% |
 
 These are retrospective estimates rather than instrumented measurements. Bottle capacity, package size and dry mass are explicit working assumptions. The report explains the 185 g loaded-mass example and the 165–230 g sensitivity range.
 
@@ -41,7 +41,7 @@ npm install --prefix .site-tools --no-audit --no-fund playwright
 node scripts/verify_site.mjs
 ```
 
-The verification script uses the local Windows Chrome installation. It checks responsive overflow, imagery, keyboard behavior, the expanded project sections, absence of report-download links, chapter seeking and timed captions. It writes local evidence into `.impeccable/review/`.
+The verification script uses the local Windows Chrome installation. It checks responsive overflow, imagery, keyboard behavior, the expanded project sections, removal of the teacher grading block and report-download links, chapter seeking and Spanish captions. It writes local evidence into `.impeccable/review/`.
 
 To check the published site with the same browser scenarios in PowerShell:
 
@@ -57,20 +57,23 @@ After Pages finishes deployment, `python scripts/verify_publication.py` compares
 ## Delivery verification
 
 - The final video is 323.2 seconds, 9,696 frames, 1280 × 720 at 30 fps, with H.264 video and stereo AAC audio.
-- All 11 technical delivery checks passed. The measured mix is approximately −16.0 LUFS with a −1.9 dBTP true peak.
+- All 11 technical delivery checks passed. The measured mix is approximately −16.0 LUFS with a −1.5 dBTP true peak.
 - Fifteen sampled frame comparisons confirm alignment with the source timeline, including the exact cut at 237.2 seconds. The actual release occurs around 244.512 seconds; the camera does not retain the highest point.
-- All 93 embedded caption cues are nonoverlapping. The site provides the original-speech captions as WebVTT.
+- All 93 embedded Spanish caption cues are nonoverlapping and match the caption source. The site provides the same captions as WebVTT.
+- Automatic language detection identified Spanish in all 11 sampled audio sections, covering the full replacement ending and selected earlier chapters.
 - Local browser checks passed at 1440, 390, 320 and 768 px, including the expanded content, keyboard controls and actual video playback.
-- The same browser checks passed on the public GitHub Pages site. All 25 public assets matched the committed release by SHA-256, and the video server honored byte-range requests.
+- Public verification runs the same browser scenarios on GitHub Pages, compares all 25 public assets with the committed release by SHA-256, and checks video byte-range requests. The latest results are saved in `.impeccable/review/published/`.
 - The v7 report contains eight pages: a proper school cover, objective and science, four pages of photographic evidence, results and calculations, and a conclusion with the assignment criteria and sources. All 15 prepared original photographs are embedded in the DOCX without cropping; the PDF was exported through Microsoft Word. Text placement, image identity, proportions and pagination were validated.
 
-Video evidence is recorded in `revision-v6/reports/`; corrected report evidence is in `revision-v7/reports/`. These checks establish packaging, alignment and browser behavior; audio review used source alignment and loudness measurements.
+Current video evidence is in `revision-v8/reports/`; corrected school-report evidence is in `revision-v7/reports/`. Video checks cover packaging, picture alignment, subtitle identity, loudness and automatic language recognition of the packaged audio. Automatic recognition is not a subjective listening review.
 
 The original [v6 publication evidence](revision-v6/reports/publication.json) records the earlier English website. Current public verification is generated by the commands above and saved in `.impeccable/review/published/`.
 
 ## Documentary and report source
 
-`revision-v6/` contains the editable Remotion scenes and narration plan. `revision-v7/` contains the Spanish report copy, all 15 prepared photographs, their original-source hashes, and document build/export/verification scripts. The original recordings, historical revisions, installed rendering dependencies and temporary exports remain in the local project workspace. Rebuilding the documentary requires those local media assets and the configured editing toolkit. The published site itself is self-contained.
+`revision-v8/` contains the corrected Spanish ending, narration plan and assembly/verification scripts. It uses the shared design and media in `revision-v6/` and preserves the first 237.2 seconds from `revision-v5/out/picture.mp4`. The seven new narration clips use the male Spanish voice `es-ES-AlvaroNeural`; content-based filenames prevent stale speech from being reused after script changes.
+
+`revision-v7/` contains the Spanish report copy, all 15 prepared photographs, their original-source hashes, and document build/export/verification scripts. The original recordings, historical revisions, installed rendering dependencies and temporary exports remain in the local project workspace. Rebuilding the documentary requires those local media assets and the configured editing toolkit. The published site itself is self-contained.
 
 To rebuild the report on Windows with Microsoft Word installed, install `python-docx`, `Pillow`, `PyMuPDF` and `pywin32`, then run:
 
@@ -82,4 +85,4 @@ python revision-v7/verify_report.py
 
 The deliverables are `Rocket-Complete-Report-v7.docx` and `.pdf` in the project root. `prepare_evidence.py` is only needed to recreate the prepared photographs from the local original folder.
 
-`scripts/prepare_site.py` prepares the website copies from the local deliverables. It preserves original material and records image provenance in `docs/assets/provenance.json`. Font licenses are beside the font files.
+`scripts/prepare_site.py` prepares the website copies from the local deliverables. Use `--documentary-only` to update the verified v8 video, Spanish poster and captions. It preserves original material and records image provenance in `docs/assets/provenance.json`. Font licenses are beside the font files.

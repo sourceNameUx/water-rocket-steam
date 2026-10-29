@@ -1,0 +1,69 @@
+{
+  "file": "C:\\Users\\usuario\\Documents\\Tareas\\PROYECTO-TECNOLOGIA\\Rocket-Documentary-v8-SPANISH.mp4",
+  "format": "mov,mp4,m4a,3gp,3g2,mj2",
+  "duration": 323.2,
+  "size_bytes": 76965429,
+  "bitrate": 1905084,
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1280,
+    "height": 720,
+    "display_aspect": "16:9",
+    "fps": 30.0,
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "variable_frame_rate_suspected": false,
+    "pix_fmt": "yuv420p",
+    "bit_depth": 8,
+    "hdr": false,
+    "hdr_signal": false,
+    "bt2020_or_hdr": false,
+    "hdr_format": null,
+    "dolby_vision": null,
+    "color_space": "bt709",
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_range": "tv",
+    "rotation": 0,
+    "nb_frames": 9696,
+    "duration": 323.2,
+    "start_time": 0.0,
+    "bitrate": 1636219
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "sample_rate": 48000,
+    "bitrate": 259889,
+    "duration": 323.2,
+    "start_time": 0.0
+  },
+  "subtitle_streams": 1,
+  "data_streams": 0,
+  "chapters": [],
+  "tags": {
+    "comment": "Made with Remotion 4.0.538"
+  },
+  "subtitle_stream_details": [
+    {
+      "index": 0,
+      "codec": "mov_text",
+      "language": "spa",
+      "title": null
+    }
+  ],
+  "audio_streams": [
+    {
+      "index": 0,
+      "codec": "aac",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "sample_rate": 48000,
+      "language": "und",
+      "title": null
+    }
+  ]
+}
+

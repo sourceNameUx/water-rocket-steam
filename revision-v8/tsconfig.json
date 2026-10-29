@@ -1,0 +1,4 @@
+{
+  "extends": "../revision-v6/tsconfig.check.json",
+  "include": ["src"]
+}

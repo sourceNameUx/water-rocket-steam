@@ -1,0 +1,117 @@
+{
+  "status": "completed",
+  "output": null,
+  "dry_run": false,
+  "commands": [
+    "'C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Users\\usuario\\Documents\\Tareas\\PROYECTO-TECNOLOGIA\\Rocket-Documentary-v8-SPANISH.mp4' -vn -af loudnorm=I=-14:TP=-1:LRA=11:print_format=json -f null -",
+    "'C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Users\\usuario\\Documents\\Tareas\\PROYECTO-TECNOLOGIA\\Rocket-Documentary-v8-SPANISH.mp4' -map 0:v:0 -vf blackdetect=d=0.1:pix_th=0.1,freezedetect=n=-60dB:d=0.5 -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -"
+  ],
+  "verified": false,
+  "verification": [],
+  "platform": "custom",
+  "checks": [
+    {
+      "check": "duration",
+      "status": "PASS",
+      "value": "323.20s",
+      "expected": "any",
+      "fix": "",
+      "reason": "",
+      "kind": "judgement"
+    },
+    {
+      "check": "aspect",
+      "status": "PASS",
+      "value": "16:9",
+      "expected": "16:9",
+      "fix": "fit.py --aspect 16:9 --fit pad (keeps everything, adds bars) or crop (fills the frame, loses the edges: check the subject with look.py)",
+      "reason": "",
+      "kind": "judgement"
+    },
+    {
+      "check": "vfr",
+      "status": "PASS",
+      "value": "constant",
+      "expected": "constant",
+      "fix": "fit.py --fps N (any re-encode conforms it)",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "colour",
+      "status": "PASS",
+      "value": "bt709/bt709",
+      "expected": "bt709/bt709 tagged (or HDR)",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "audio",
+      "status": "PASS",
+      "value": "aac 2ch 48000Hz",
+      "expected": "present",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "subtitles",
+      "status": "PASS",
+      "value": "1 (spa)",
+      "expected": "every track tagged with its language",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "loudness",
+      "status": "PASS",
+      "value": "-16.0 LUFS",
+      "expected": "-16 ± 2 LUFS",
+      "fix": "loudness.py -I -16 for speech or music; leave ambience/near-silence (<= -40 LUFS) alone and say so",
+      "reason": "",
+      "kind": "judgement"
+    },
+    {
+      "check": "true peak",
+      "status": "PASS",
+      "value": "-1.5 dBTP",
+      "expected": "<= -1 dBTP",
+      "fix": "loudness.py --tp -1",
+      "reason": "",
+      "kind": "judgement"
+    },
+    {
+      "check": "black",
+      "status": "PASS",
+      "value": "0% black",
+      "expected": "<= 10% black",
+      "fix": "look.py the black spans; trim them with cut.py or re-export from the master",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "frozen",
+      "status": "PASS",
+      "value": "longest 8.1s",
+      "expected": "<= 97.0s frozen",
+      "fix": "look.py the frozen span: a still title card is fine, a stuck decode is not",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "silence",
+      "status": "PASS",
+      "value": "2% silent",
+      "expected": "<= 50% below -50 dBFS",
+      "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+      "reason": "",
+      "kind": "format"
+    }
+  ],
+  "failed": 0,
+  "warnings": 0,
+  "ok": true
+}
+

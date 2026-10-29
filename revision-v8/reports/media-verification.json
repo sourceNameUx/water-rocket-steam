@@ -1,0 +1,194 @@
+{
+  "file": "C:\\Users\\usuario\\Documents\\Tareas\\PROYECTO-TECNOLOGIA\\Rocket-Documentary-v8-SPANISH.mp4",
+  "frames": 9696,
+  "duration": 323.2,
+  "joinSeconds": 237.2,
+  "releaseSeconds": 244.512,
+  "pictureComparisons": [
+    {
+      "source": "body",
+      "sourceFrame": 0,
+      "finalFrame": 0,
+      "meanSquaredError": 0.030856119468808174
+    },
+    {
+      "source": "body",
+      "sourceFrame": 210,
+      "finalFrame": 210,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "body",
+      "sourceFrame": 2250,
+      "finalFrame": 2250,
+      "meanSquaredError": 1.9252545833587646
+    },
+    {
+      "source": "body",
+      "sourceFrame": 5076,
+      "finalFrame": 5076,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "body",
+      "sourceFrame": 7115,
+      "finalFrame": 7115,
+      "meanSquaredError": 0.12962709367275238
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 0,
+      "finalFrame": 7116,
+      "meanSquaredError": 0.0
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 30,
+      "finalFrame": 7146,
+      "meanSquaredError": 0.6566478610038757
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 220,
+      "finalFrame": 7336,
+      "meanSquaredError": 0.863438606262207
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 270,
+      "finalFrame": 7386,
+      "meanSquaredError": 0.5464662909507751
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 720,
+      "finalFrame": 7836,
+      "meanSquaredError": 0.553242564201355
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1200,
+      "finalFrame": 8316,
+      "meanSquaredError": 0.5855251550674438
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1740,
+      "finalFrame": 8856,
+      "meanSquaredError": 0.12668077647686005
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 1980,
+      "finalFrame": 9096,
+      "meanSquaredError": 0.4721531271934509
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 2370,
+      "finalFrame": 9486,
+      "meanSquaredError": 0.2821343243122101
+    },
+    {
+      "source": "tail",
+      "sourceFrame": 2579,
+      "finalFrame": 9695,
+      "meanSquaredError": 0.18539641797542572
+    }
+  ],
+  "captionCues": 93,
+  "embeddedCaptionsMatchSpanishSource": true,
+  "captionComparison": "Exact words and timing; line wrapping ignored",
+  "speechChecks": [
+    {
+      "section": "opening",
+      "start": 0,
+      "end": 25,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9906598925590515,
+      "transcript": "Soy Santiago Condu mis olis y este es mi proyecto este am, competencia de cohetes de agua. Para el coete us\u00e9 una botella, vinagre y vibranado de sodio. Al mezclar los se formadi\u00f3xido de carbono, el gas que genera la presi\u00f3n. Si el gas es capa antes de tiempo, queda menos presi\u00f3n para el despegue."
+    },
+    {
+      "section": "science",
+      "start": 25,
+      "end": 43,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9935057163238525,
+      "transcript": "Primero pens\u00e9 que el g\u00e1s era hidr\u00f3geno, pero en realidad es di\u00f3xido de carbono. La presi\u00f3n empuja el agua hacia abajo y por reacci\u00f3n, el cohete sube. Por eso cuide la cantidad de vinagre, el vicarbonato y el sellado de la tapa."
+    },
+    {
+      "section": "construction",
+      "start": 95,
+      "end": 113,
+      "detectedLanguage": "es",
+      "languageProbability": 0.947319746017456,
+      "transcript": "Re\u00fan\u00ed los materiales, vinagre, di carbonato, agua, botella si cinta. Con ayuda de mi familia Armella justeca la montaje. Fui ajustando el montaje entre una prueba y otra."
+    },
+    {
+      "section": "design",
+      "start": 169.2,
+      "end": 185.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9362668395042419,
+      "transcript": "Para el dise\u00f1o final, le a\u00f1ad\u00eda leta si una base de apoyo. Puse las letas en la parte trasera para ayudar al cohete a mantener la direcci\u00f3n. Con el aire, ayudan a corregir peque\u00f1as inclinaciones."
+    },
+    {
+      "section": "theoretical-example",
+      "start": 219.2,
+      "end": 237.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9628696441650391,
+      "transcript": "para calcular la subida despu\u00e9s del impulso uso la velocidad vertical. Si fuera 10 metros por segundo, el modelo ideal dar\u00eda unos 5,1 metros adicionales. Es un ejemplo sin resistencia del aire, no la altura medida de mi vuelo."
+    },
+    {
+      "section": "final-launch",
+      "start": 237.2,
+      "end": 253.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9713019132614136,
+      "transcript": "Esta es la prueba final con mi coeta terminado. Ah\u00ed despego. Calcul\u00e9 cerca de un metro, todav\u00eda por debajo de la meta de 5 metros."
+    },
+    {
+      "section": "comparison",
+      "start": 253.2,
+      "end": 269.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9765393733978271,
+      "transcript": "La primera versi\u00f3n subi\u00f3 unos dos metros, la botella grande medio metro y el dise\u00f1o final un metro. Son el 40, 10 y 20 por ciento de la meta. La primera lleg\u00f3 m\u00e1s alto."
+    },
+    {
+      "section": "quantities",
+      "start": 269.2,
+      "end": 285.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.984510600566864,
+      "transcript": "Para el c\u00e1lculo supuse una botella de 400 ml. Un cuarto equivale a 100 ml de vinagre. Si la caja de bicarbonato ten\u00eda 50 gramos, la mitad ser\u00edan 25. No confirme esas cantidades."
+    },
+    {
+      "section": "analysis",
+      "start": 285.2,
+      "end": 299.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9682134389877319,
+      "transcript": "Las aletas ayudan con la direcci\u00f3n, pero junto con la cinta a\u00f1ade en peso. Una botella m\u00e1s grande necesita m\u00e1s gas para aumentar igual la presi\u00f3n. Tambi\u00e9n pudieron influir las fugas, la inclinaci\u00f3n y el roce con el soporte."
+    },
+    {
+      "section": "mass",
+      "start": 299.2,
+      "end": 309.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9789708256721497,
+      "transcript": "La mezcla ser\u00eda de 125 gramos. Con 60 gramos supuestos del cohete seco, el total ser\u00eda 1.885 gramos."
+    },
+    {
+      "section": "conclusion",
+      "start": 309.2,
+      "end": 323.2,
+      "detectedLanguage": "es",
+      "languageProbability": 0.9688064455986023,
+      "transcript": "No alcance 5 metros. Usar\u00eda un dise\u00f1o libiano, pesar\u00eda las piezas y revisar\u00eda el cierre. Probar\u00eda un cambio a la vez. Verse m\u00e1s terminado no signific\u00f3 volar m\u00e1s alto."
+    }
+  ],
+  "allSampledSpeechSpanish": true,
+  "reviewMethod": "Automatic recognition of actual packaged audio; no subjective-listening claim"
+}

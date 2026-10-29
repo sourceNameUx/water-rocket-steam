@@ -31,6 +31,15 @@ revision-v6/reports/*
 revision-v6/bootstrap.py
 revision-v6/Open-Editor.cmd
 revision-v7/review/
+revision-v8/out/
+revision-v8/narration/*.wav
+revision-v8/narration/*.json
+!revision-v8/narration/plan.json
+revision-v8/reports/*
+!revision-v8/reports/final-check.json
+!revision-v8/reports/final-probe.json
+!revision-v8/reports/media-verification.json
+revision-v8/delivery.project.json
 VIDEO-WORKFLOW.md
 video-preferences.json
 /*.mp4

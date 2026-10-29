@@ -82,7 +82,7 @@ try {
   const errors = [];
   page.on("pageerror", (error) => errors.push(error.message));
   if (noMedia)
-    await page.route("**/rocket-documentary.mp4", (route) => route.abort());
+    await page.route("**/rocket-documentary.mp4*", (route) => route.abort());
   await page.goto(base, { waitUntil: "networkidle" });
   await page.evaluate(() => document.fonts.ready);
   assert.equal(await page.locator("html").getAttribute("lang"), "es");
@@ -90,9 +90,15 @@ try {
   assert.ok(await page.locator("#science .reaction").isVisible());
   assert.equal(await page.locator('a[href*="rocket-report"]').count(), 0);
   assert.ok(await page.locator("#conclusion").isVisible());
+  assert.equal(await page.locator(".rubric").count(), 0);
+  assert.equal(
+    await page.locator('track[kind="captions"]').getAttribute("srclang"),
+    "es",
+  );
   report.checks.push(
     "Spanish construction history, scientific explanation and on-page conclusion",
     "No report download links in the website",
+    "Teacher grading block removed and captions labeled Spanish",
   );
   if (!mediaOnly) {
     for (const [name, width, height] of [
@@ -227,6 +233,7 @@ try {
       [...video.textTracks[0].cues].map((cue) => ({
         start: cue.startTime,
         end: cue.endTime,
+        text: cue.text,
       })),
     );
     assert.ok(
@@ -235,11 +242,43 @@ try {
           cue.end > cue.start && (!index || cues[index - 1].end <= cue.start),
       ),
     );
+    const expectedCaptionText = fs
+      .readFileSync(path.join(root, "docs/assets/documentary.vtt"), "utf8")
+      .trim()
+      .split(/\r?\n\r?\n/)
+      .slice(1)
+      .map((block) => block.split(/\r?\n/).slice(2).join("\n"));
+    assert.deepEqual(
+      cues.map((cue) => cue.text),
+      expectedCaptionText,
+    );
+    assert.equal(
+      new URL(
+        await page.locator("video").evaluate((video) => video.currentSrc),
+      ).searchParams.get("v"),
+      "8-es",
+    );
+    await page.locator("video").evaluate((video) => {
+      video.currentTime = 316;
+    });
+    await page.waitForFunction(() => {
+      const video = document.querySelector("video");
+      return (
+        !video.seeking &&
+        video.readyState >= 2 &&
+        video.currentTime === 316 &&
+        video.textTracks[0].activeCues?.length > 0
+      );
+    });
+    await page
+      .locator("video")
+      .screenshot({ path: path.join(review, "spanish-video-ending.png") });
     report.media = { ...metadata, captionCues: cues.length };
     report.checks.push(
       "Actual video metadata",
       "Final-launch chapter seeks and plays",
       "Timed WebVTT captions load without overlap",
+      "Spanish caption text matches the release and the corrected ending is seekable",
     );
   }
   assert.deepEqual(errors, []);

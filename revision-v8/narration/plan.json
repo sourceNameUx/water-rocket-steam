@@ -1,0 +1,16 @@
+{
+  "language": "es",
+  "voice": "es-ES-AlvaroNeural",
+  "rate": 1.05,
+  "appendAt": 237.2,
+  "duration": 86,
+  "shots": [
+    {"id": "final-setup", "at": 0.65, "endBefore": 6.5, "speech": "Esta es la prueba final con mi cohete terminado."},
+    {"id": "final-release", "at": 7.8, "endBefore": 15.7, "speech": "Ahí despegó. Calculé cerca de un metro, todavía por debajo de la meta de cinco metros."},
+    {"id": "comparison", "at": 16.5, "endBefore": 31.7, "speech": "La primera versión subió unos dos metros, la botella grande medio metro y el diseño final un metro. Son el cuarenta, diez y veinte por ciento de la meta. La primera llegó más alto."},
+    {"id": "quantities", "at": 32.5, "endBefore": 47.7, "speech": "Para el cálculo supuse una botella de cuatrocientos mililitros. Un cuarto equivale a cien mililitros de vinagre. Si la caja de bicarbonato tenía cincuenta gramos, la mitad serían veinticinco. No confirmé esas cantidades."},
+    {"id": "design-analysis", "at": 48.5, "endBefore": 61.7, "speech": "Las aletas ayudan con la dirección, pero junto con la cinta añaden peso. Una botella más grande necesita más gas para aumentar igual la presión. También pudieron influir las fugas, la inclinación y el roce con el soporte."},
+    {"id": "mass-estimate", "at": 62.3, "endBefore": 71.7, "speech": "La mezcla sería de ciento veinticinco gramos. Con sesenta gramos supuestos del cohete seco, el total sería unos ciento ochenta y cinco gramos."},
+    {"id": "conclusion", "at": 72.5, "endBefore": 85.5, "speech": "No alcancé cinco metros. Usaría un diseño liviano, pesaría las piezas y revisaría el cierre. Probaría un cambio a la vez. Verse más terminado no significó volar más alto."}
+  ]
+}

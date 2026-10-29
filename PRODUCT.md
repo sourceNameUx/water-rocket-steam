@@ -16,11 +16,11 @@ Santiago and the audience reviewing his STEAM school project. A teacher reviewin
 
 ## Product Purpose
 
-Present the real rocket, its construction, documentary, test results and downloadable report in one accessible place.
+Present the real rocket, its construction, scientific explanation, documentary, test results and conclusion directly on the website.
 
 ## Capabilities and Constraints
 
-The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. The website and standalone report must be Spanish, following Santiago's schoolwork writing profile. The documentary has Spanish chapters and an English results ending, which is labeled on the site. The report requires a proper cover and all 15 original photographs, with no embedded video. No login or backend is needed.
+The site must show real photographs and the corrected final-launch recording. Reported heights are approximately 2 m, 0.5 m and 1 m; the goal is at least 5 m. Material quantities and mass use explicitly stated assumptions. The website and standalone report must be Spanish, following Santiago's schoolwork writing profile. The website needs fuller explanatory text and no document-download promotion; the report is a separate submission. The documentary has Spanish chapters and an English results ending, which is labeled on the site. The report requires a proper cover and all 15 original photographs, with no embedded video. No login or backend is needed.
 
 ## Brand Commitments
 
@@ -34,5 +34,5 @@ Continue the documentary's lively blue, yellow and green identity, with large re
 
 - Let the actual experiment lead.
 - Keep estimates visibly distinct from measurements.
-- Give the documentary and report direct, working access.
+- Explain the project on the page and give the documentary direct, working access.
 - Make the page readable on phones and classroom computers.

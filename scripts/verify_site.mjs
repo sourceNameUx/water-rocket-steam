@@ -86,9 +86,13 @@ try {
   await page.goto(base, { waitUntil: "networkidle" });
   await page.evaluate(() => document.fonts.ready);
   assert.equal(await page.locator("html").getAttribute("lang"), "es");
-  assert.match(await page.locator("#report").innerText(), /15 fotos/);
+  assert.equal(await page.locator("#process .process-steps li").count(), 3);
+  assert.ok(await page.locator("#science .reaction").isVisible());
+  assert.equal(await page.locator('a[href*="rocket-report"]').count(), 0);
+  assert.ok(await page.locator("#conclusion").isVisible());
   report.checks.push(
-    "Spanish page language and complete photographic report description",
+    "Spanish construction history, scientific explanation and on-page conclusion",
+    "No report download links in the website",
   );
   if (!mediaOnly) {
     for (const [name, width, height] of [
@@ -113,12 +117,36 @@ try {
         () => document.documentElement.scrollWidth > innerWidth,
       );
       assert.equal(overflow, false, `${name} horizontal overflow`);
-      if (["desktop", "mobile"].includes(name))
+      if (["desktop", "mobile"].includes(name)) {
         await page.screenshot({
           path: path.join(review, `${name}.png`),
           fullPage: true,
           animations: "disabled",
         });
+        for (const section of ["process", "science", "conclusion"]) {
+          await page
+            .locator(`#${section}`)
+            .evaluate((element) =>
+              element.scrollIntoView({ block: "start", behavior: "instant" }),
+            );
+          await page.screenshot({
+            path: path.join(review, `${name}-${section}.png`),
+            animations: "disabled",
+          });
+        }
+        if (name === "mobile") {
+          await page
+            .locator("#science .story-copy")
+            .evaluate((element) =>
+              element.scrollIntoView({ block: "start", behavior: "instant" }),
+            );
+          await page.screenshot({
+            path: path.join(review, "mobile-science-copy.png"),
+            animations: "disabled",
+          });
+        }
+        await page.evaluate(() => window.scrollTo(0, 0));
+      }
       if (name === "desktop")
         await page.screenshot({
           path: path.join(review, "desktop-first-viewport.png"),
@@ -147,13 +175,6 @@ try {
     );
     await page.locator("summary").click();
     assert.equal(await page.locator("details").getAttribute("open"), "");
-    for (const extension of ["pdf", "docx"]) {
-      const downloadPromise = page.waitForEvent("download");
-      await page.locator(`a[download][href$=".${extension}"]`).click();
-      const download = await downloadPromise;
-      assert.equal(await download.failure(), null);
-      assert.equal(download.suggestedFilename(), `rocket-report.${extension}`);
-    }
     await page.goto(base);
     await page.keyboard.press("Tab");
     assert.equal(await page.locator(":focus").textContent(), "Ir al contenido");
@@ -170,7 +191,6 @@ try {
       "All images loaded",
       "Rocket part selection and keyboard activation",
       "Scientific explanation disclosure",
-      "PDF and DOCX browser downloads",
       "Skip link and section destinations",
     );
   }

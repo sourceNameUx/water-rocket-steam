@@ -293,6 +293,65 @@ a:not(.button) > .icon {
 .section {
   padding: 104px 7vw;
 }
+.story-section {
+  display: grid;
+  grid-template-columns: 0.9fr 1.4fr;
+  gap: 7vw;
+  align-items: start;
+}
+.process-section {
+  border-bottom: 1px solid var(--line);
+}
+.science-section {
+  border-top: 1px solid var(--line);
+}
+.story-intro > p {
+  margin-top: 24px;
+}
+.story-intro > h3 {
+  margin-top: 32px;
+}
+.story-intro > h3 + p {
+  margin-top: 12px;
+}
+.process-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.process-steps li {
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+}
+.process-steps li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.process-steps li:last-child {
+  padding-bottom: 0;
+}
+.process-steps h3 + p,
+.story-copy h3 + p {
+  margin-top: 14px;
+}
+.story-copy p + p {
+  margin-top: 20px;
+}
+.story-copy > p {
+  text-wrap: pretty;
+}
+.story-copy p + h3 {
+  margin-top: 30px;
+}
+.reaction {
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 17px;
+}
+.reaction > span {
+  display: inline-block;
+}
 .design-section {
   display: grid;
   grid-template-columns: 0.9fr 1.4fr;
@@ -445,6 +504,15 @@ video {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
   gap: 10vw;
+  row-gap: 40px;
+}
+.results-analysis {
+  grid-column: 1 / -1;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+.results-analysis > p {
+  margin-top: 18px;
 }
 .results-intro > p:not(.eyebrow) {
   margin: 26px 0;
@@ -541,7 +609,7 @@ video {
   grid-template-columns: 1fr 1.2fr;
   gap: 9vw;
 }
-.estimate-section h2 + p {
+.estimate-section > div:first-child > p {
   margin-top: 24px;
   max-width: 34ch;
 }
@@ -615,34 +683,16 @@ summary {
 details p {
   margin-top: 16px;
 }
-.report-section {
+.conclusion-section {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   gap: 10vw;
   background: var(--yellow);
   padding: 76px 7vw;
 }
-.report-section h2 + p {
+.conclusion-section > div:first-child > p {
   margin-top: 22px;
   max-width: 46ch;
-}
-.download-actions {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-.dark {
-  background: var(--ink);
-  color: white;
-}
-.dark:hover {
-  background: #29483e;
-}
-.text-link {
-  font-size: 16px;
-  font-weight: 700;
 }
 .rubric {
   align-self: center;
@@ -717,7 +767,7 @@ footer p {
   }
   .section,
   .estimate-section,
-  .report-section {
+  .conclusion-section {
     padding-left: max(7vw, calc((100vw - 1380px) / 2));
     padding-right: max(7vw, calc((100vw - 1380px) / 2));
   }
@@ -778,7 +828,7 @@ footer p {
     gap: 6vw;
   }
   .estimate-section,
-  .report-section {
+  .conclusion-section {
     gap: 6vw;
   }
   .film-heading > p {
@@ -867,6 +917,10 @@ footer p {
   }
   .section {
     padding: 65px 24px;
+  }
+  .story-section {
+    grid-template-columns: 1fr;
+    gap: 36px;
   }
   h2 {
     font-size: 46px;
@@ -967,12 +1021,12 @@ footer p {
     margin-top: 22px;
   }
   .estimate-section,
-  .report-section {
+  .conclusion-section {
     grid-template-columns: 1fr;
     padding: 60px 24px;
     gap: 32px;
   }
-  .estimate-section h2 + p {
+  .estimate-section > div:first-child > p {
     max-width: 42ch;
   }
   .estimate-ledger > div > span {
@@ -1001,7 +1055,7 @@ footer p {
   .lesson-grid > div > p {
     font-size: 16px;
   }
-  .report-section h2 + p {
+  .conclusion-section > div:first-child > p {
     font-size: 16px;
   }
   .rubric {
@@ -1028,7 +1082,7 @@ footer p {
   .section,
   .film-section,
   .estimate-section,
-  .report-section {
+  .conclusion-section {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1055,7 +1109,6 @@ footer p {
 .site-header nav a,
 .hero-exhibit figcaption a,
 .film-notes a,
-.text-link,
 footer > a {
   display: inline-flex;
   align-items: center;

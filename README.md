@@ -12,6 +12,8 @@ Santiago Cundumi Solis's STEAM water-rocket project: a documentary, interactive 
 
 **Language:** The website and both report formats are in Spanish, following Santiago's correction and writing profile. The documentary retains its original Spanish chapters and English results ending; the website labels that mixed-language audio explicitly.
 
+The website explains the construction stages, reaction and thrust, comparison of results, mass assumptions and next-test improvements directly on the page. Its former report-download section has been replaced with a conclusion; the report remains a separate school submission, accessible through the repository links above.
+
 ## Results at a glance
 
 | Version | Estimated height | Share of the 5 m goal |
@@ -39,7 +41,7 @@ npm install --prefix .site-tools --no-audit --no-fund playwright
 node scripts/verify_site.mjs
 ```
 
-The verification script uses the local Windows Chrome installation. It checks responsive overflow, imagery, keyboard behavior, report downloads, chapter seeking and timed captions. It writes local evidence into `.impeccable/review/`.
+The verification script uses the local Windows Chrome installation. It checks responsive overflow, imagery, keyboard behavior, the expanded project sections, absence of report-download links, chapter seeking and timed captions. It writes local evidence into `.impeccable/review/`.
 
 To check the published site with the same browser scenarios in PowerShell:
 
@@ -58,7 +60,7 @@ After Pages finishes deployment, `python scripts/verify_publication.py` compares
 - All 11 technical delivery checks passed. The measured mix is approximately −16.0 LUFS with a −1.9 dBTP true peak.
 - Fifteen sampled frame comparisons confirm alignment with the source timeline, including the exact cut at 237.2 seconds. The actual release occurs around 244.512 seconds; the camera does not retain the highest point.
 - All 93 embedded caption cues are nonoverlapping. The site provides the original-speech captions as WebVTT.
-- Local browser checks passed at 1440, 390, 320 and 768 px, including downloads, keyboard controls and actual video playback.
+- Local browser checks passed at 1440, 390, 320 and 768 px, including the expanded content, keyboard controls and actual video playback.
 - The same browser checks passed on the public GitHub Pages site. All 25 public assets matched the committed release by SHA-256, and the video server honored byte-range requests.
 - The v7 report contains eight pages: a proper school cover, objective and science, four pages of photographic evidence, results and calculations, and a conclusion with the assignment criteria and sources. All 15 prepared original photographs are embedded in the DOCX without cropping; the PDF was exported through Microsoft Word. Text placement, image identity, proportions and pagination were validated.
 
